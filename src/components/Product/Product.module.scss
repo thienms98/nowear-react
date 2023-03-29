@@ -1,0 +1,310 @@
+$border: 1px;
+
+@mixin underBox($border-width){
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  color: transparent;
+  background-color: currentColor;
+  border: $border-width solid currentColor;
+  z-index: 1;
+}
+
+.wrapper{
+  $rotation-time: 1.5s;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 270px;
+  border: $border solid transparent;
+  position: relative;
+  z-index: 0;
+  margin-left: 20px;
+
+  &::before{
+    @include underBox($border);
+    top: $border;
+    left: $border;
+  }
+  &::after{
+    @include underBox($border);
+    top: 50%;
+    left: 50%;
+  }
+  &:hover::before{
+    background: -webkit-linear-gradient(45deg, #3b8d99, #6b6b83, #aa4b6b); 
+    background: linear-gradient(45deg, #3b8d99, #6b6b83, #aa4b6b);
+    animation: rolling linear $rotation-time infinite;
+  }
+  &:hover::after{
+    background: -webkit-linear-gradient(45deg, #3b8d99, #6b6b83, #aa4b6b); 
+    background: linear-gradient(45deg, #3b8d99, #6b6b83, #aa4b6b);
+    animation: getPosition calc($rotation-time / 2), rolling linear $rotation-time calc($rotation-time / 2) infinite;
+  }
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  padding-top: 126%;
+
+  &>*:not(.image){
+    position: relative;
+    z-index: 7;
+  }
+
+  .image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: var(--primary-background);
+
+    &:nth-child(1){
+      z-index: 6;
+    }
+    &>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &:hover > .image:nth-child(1){
+    z-index: 4;
+  }
+
+  .tags{
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    position: absolute;
+    top: .25em;
+    left: .25em;
+    color: var(--secondary-text);
+
+    &>.item{
+      background-color: var(--tag-background);
+      text-transform: uppercase;
+      padding: .25em .5em;
+      border-radius: .5em;
+      
+      &.sale{
+        background-color: var(--secondary-background);
+      }
+    }
+  }
+
+  .interact{
+    position: absolute;
+    top: .25em;
+    right: .25em;
+    display: flex;
+    flex-direction: column;
+
+    .item{
+      font-size: 1.25em;
+      width: 1.75em;
+      height: 1.75em;
+      border-radius: 50%;
+      background: var(--primary-background);
+      color: var(--primary-text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fav.selected>svg{
+      animation: bouncingItem .5s forwards;
+    }
+    .item.fav:not(.selected)>svg{
+      transform-origin: bottom center;
+      animation: shakingItem .5s linear forwards;
+    }
+  }
+
+  .more{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5em;
+    transition: all .5s;
+
+    &>.item{
+      font-size: 1em;
+      padding: .3em 1.5em;
+      border-radius: 1em;
+      color: var(--secondary-text);
+      background-color: var(--tag-background);
+    }
+  }
+
+  &:hover > .more{
+    transform: translateY(calc(-100% - .5em));
+  }
+}
+
+.item{
+  cursor: pointer;
+  opacity: .85;
+}
+
+.body{
+  z-index: 8;
+  width: 100%;
+  background-color: var(--primary-background);
+  font-size: 1.25em;
+
+
+  .title{
+    text-align: center;
+    line-height: 1em;
+    height: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: .75em 0;
+  }
+  .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+  .sale{
+    color: var(--red-text);
+  }
+  .original{
+    text-decoration: line-through;
+    color: rgba(var(--primary-text), .75);
+  }
+}
+
+@keyframes bouncingItem {
+  50%{
+    transform: translateY(-.5em) scale(1.25);
+    color: var(--secondary-background)
+  }
+  100%{
+    transform: translateY(0);
+    color: var(--secondary-background)
+  }
+}
+
+@keyframes shakingItem{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(-15deg);
+  }
+  45%{
+    transform: rotate(15deg);
+  }
+  55%{
+    transform: rotate(-15deg);
+  }
+  75%{
+    transform: rotate(15deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rolling{
+  0%{
+    width: 50%;
+    height: 50%;
+    top: -$border;
+    left: -$border;
+  }
+  12%{
+    width: 100%;
+    height: 0;
+    top: -$border;
+    left: -$border;
+  }
+  25%{
+    width: 50%;
+    height: 50%;
+    top: -$border;
+    left: calc(50%);
+  }
+  37%{
+    width: 0;
+    height: 100%;
+    top: -$border;
+    left: calc(100%);
+  }
+  50%{
+    width: 50%;
+    height: 50%;
+    top: calc(50%);
+    left: calc(50%);
+  }
+  62%{
+    width: 100%;
+    height: 0;
+    top: calc(100%);
+    left: -$border;
+  }
+  75%{
+    width: 50%;
+    height: 50%;
+    top: calc(50%);
+    left: -$border;
+  }
+  87%{
+    width: 0;
+    height: 100%;
+    top: -$border;
+    left: -$border;
+  }
+  100%{
+    width: 50%;
+    height: 50%;
+    top: -$border;
+    left: -$border;
+  }
+}
+
+@keyframes getPosition{
+  0%{
+    width: 50%;
+    height: 50%;
+    top: calc(50%);
+    left: calc(50%);
+  }
+  25%{
+    width: 100%;
+    height: 0;
+    top: calc(100%);
+    left: -$border;
+  }
+  50%{
+    width: 50%;
+    height: 50%;
+    top: calc(50%);
+    left: -$border;
+  }
+  75%{
+    width: 0;
+    height: 100%;
+    top: -$border;
+    left: -$border;
+  }
+  100%{
+    width: 50%;
+    height: 50%;
+    top: -$border;
+    left: -$border;
+  }
+}

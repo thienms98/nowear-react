@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useReducer, createContext } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import { Header, Footer } from './Layouts';
+import { HomePage, Collection } from './pages';
+
+export const CartContext = createContext();
+
+export default function App() {
+  const initCart = [];
+  const cartReducer = (state, action) => {
+    switch (action.type) {
+      case 'add':
+        return [...state, action.payload];
+      case 'remove':
+        state.splice(action.payload, 0);
+        return state;
+      default:
+        return state;
+    }
+  };
+  const [cart, dispatch] = useReducer(cartReducer, initCart);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartContext.Provider value={{ cart, dispatch }}>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/collection" element={<Collection />} />
+        </Routes>
+        <Footer />
+      </div>
+    </CartContext.Provider>
   );
 }
-
-export default App;

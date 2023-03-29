@@ -1,0 +1,25 @@
+.wrapper{
+  width: 200px;
+  font-size: 1.6rem;
+}
+
+.price-range{
+  width: 100%;
+  height: .8em;
+  border-radius: 10px;
+  background-color: var(--primary-background);
+  border: 1px solid var(--dark-background);
+
+  .button{
+    transform: translate(-50%, -25%);
+    width: 1.6em;
+    height: 1.6em;
+    position: absolute;
+    background-color: var(--primary-background);
+    border: 1px solid var(--dark-background);
+  }
+
+  .button:nth-child(2){
+    left: 100%
+  }
+}

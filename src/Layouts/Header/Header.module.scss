@@ -1,0 +1,119 @@
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1.5em 2em;
+  box-sizing: border-box;
+  border-bottom: 20px solid #333;
+  background-color: var(--primary-background);
+
+  &>*{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.25em 2em;
+    border-bottom: 0;
+    box-shadow: 0 0 10px 1px var(--primary-text);
+    animation: fadein .5s ease-in forwards;
+    z-index: 50;
+  }
+  @keyframes fadein{
+    from{
+      top: -100%;
+      opacity: 0;
+    }
+    to{
+      top: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.menu{
+  justify-content: flex-start;
+  gap: 2em;
+
+  &>.item{
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: currentColor;
+    }
+    &[data-animation='in']::before{
+      animation: movein .5s forwards;
+    }
+    &[data-animation='out']::before{
+      animation: moveout .5s forwards;
+    }
+    @keyframes movein{
+      from{width: 0} to{width: 100%}
+    }
+    @keyframes moveout{
+      from{width: 100%; left: 0} to{width: 0; left: 100%}
+    }
+    &>a{
+      text-decoration: none;
+      font-weight: 700;
+      color: inherit;
+    }
+  }
+}
+
+.logo{
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.user{
+  justify-content: flex-end;
+  gap: 2em;
+
+  .cart{
+    position: relative;
+
+    .index{
+      font-size: .8em;
+      position: absolute;
+      top: -.5em;
+      right: -.5em;
+      width: 1em;
+      height: 1em;
+      padding: 0.1em;
+      border-radius: 50%;
+      text-align: center;
+      background-color: lightblue;
+    }
+    &.new-arrive > .index{
+      animation: shaking .5s infinite;
+    }
+    @keyframes shaking{
+      0%{transform: rotate(0deg);}
+      25%{transform: rotate(-25deg);}
+      50%{transform: rotate(25deg);}
+      75%{transform: rotate(-25deg);}
+      100%{transform: rotate(0deg);}
+    }
+  }
+}
+
+.item{
+  cursor: pointer;
+}
