@@ -1,0 +1,32 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  
+  .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    cursor: pointer;
+  }
+  .icon{
+    transform: rotate(0deg);
+    transition: all .5s;
+  }
+  .body{
+    transform-origin: top center;
+    transform: scaleY(0);
+    transition: all .5s;
+  }
+}
+
+.wrapper.dropdown{
+  .icon{
+    transform: rotate(-180deg);
+  }
+  .body{
+    transform: scaleY(1);
+  }
+}

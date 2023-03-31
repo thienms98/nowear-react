@@ -1,1336 +1,1974 @@
 {
   "products": [
     {
-      "id": 12315538,
-      "name": "ASOS DESIGN Wide Fit oxford shoes in tan leather with toe cap",
-      "price": 51,
-      "originalPrice": null,
-      "colour": "Tan",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wide-fit-oxford-shoes-in-tan-leather-with-toe-cap/12315538-1-tan"
+      "id": 11241527,
+      "name": "Levi's 501 crop jeans in light wash",
+      "price": 87.75,
+      "originalPrice": 135,
+      "color": "LOST CAUSE",
+      "brandName": "Levi's",
+      "imageUrl": "images.asos-media.com/products/levis-501-crop-jeans-in-light-wash/11241527-1-lostcause",
+      "category": "Jeans"
     },
     {
-      "id": 11635845,
-      "name": "New Balance 574 V2 Pastel Mint Sneakers",
-      "price": 80,
+      "id": 203187934,
+      "name": "Waven faded stone wash straight jeans with distress details - part of a set",
+      "price": 47,
       "originalPrice": null,
-      "colour": "Mint",
-      "brandName": "New Balance",
-      "imageUrl": "images.asos-media.com/products/new-balance-574-v2-pastel-mint-sneakers/11635845-1-mint"
+      "color": "Faded stone wash",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-faded-stone-wash-straight-jeans-with-distress-details-part-of-a-set/203187934-1-fadedstonewash",
+      "category": "Jeans"
     },
     {
-      "id": 12011431,
-      "name": "ASOS DESIGN backless mule loafer in black leather",
+      "id": 203188207,
+      "name": "Waven split leg jeans with contrast color hem in vintage black",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Vintage black",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-split-leg-jeans-with-contrast-color-hem-in-vintage-black/203188207-1-vintageblack",
+      "category": "Jeans"
+    },
+    {
+      "id": 203881007,
+      "name": "Fae high waist flared jeans with diamante fringe in washed blue",
+      "price": 70,
+      "originalPrice": null,
+      "color": "Washed blue",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-flared-jeans-with-diamante-fringe-in-washed-blue/203881007-1-washedblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203187980,
+      "name": "Waven slouchy mom jeans with pleat details in solid black",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Solid black",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-slouchy-mom-jeans-with-pleat-details-in-solid-black/203187980-1-solidblack",
+      "category": "Jeans"
+    },
+    {
+      "id": 203188076,
+      "name": "Waven super high waist straight leg jeans in blue gray - part of a set",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Blue Gray",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-super-high-waist-straight-leg-jeans-in-blue-gray-part-of-a-set/203188076-1-bluegrey",
+      "category": "Jeans"
+    },
+    {
+      "id": 203188113,
+      "name": "Waven super high waist straight leg jeans in acid wash purple - part of a set",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Acid purple",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-super-high-waist-straight-leg-jeans-in-acid-wash-purple-part-of-a-set/203188113-1-acidpurple",
+      "category": "Jeans"
+    },
+    {
+      "id": 203270732,
+      "name": "Waven straight leg relaxed jeans with v front waist in 90s blue",
+      "price": 47,
+      "originalPrice": null,
+      "color": "90s blue",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-straight-leg-relaxed-jeans-with-v-front-waist-in-90s-blue/203270732-1-90sblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203187933,
+      "name": "Waven wide leg high waist jeans in purple",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Purple",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-wide-leg-high-waist-jeans-in-purple/203187933-1-purple",
+      "category": "Jeans"
+    },
+    {
+      "id": 203187960,
+      "name": "Waven wide leg jeans with asymmetric waist in american blue",
+      "price": 47,
+      "originalPrice": null,
+      "color": "American blue",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-wide-leg-jeans-with-asymmetric-waist-in-american-blue/203187960-1-americanblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203880860,
+      "name": "Fae mid rise split hem jeans in black",
       "price": 56,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-backless-mule-loafer-in-black-leather/12011431-1-black"
+      "color": "Black",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-mid-rise-split-hem-jeans-in-black/203880860-1-black",
+      "category": "Jeans"
     },
     {
-      "id": 12686740,
-      "name": "Lacoste Court Slam chunky sneakers with gum sole in white",
-      "price": 121,
+      "id": 203187987,
+      "name": "Waven slouchy wide leg jeans in orange - part of a set",
+      "price": 47,
       "originalPrice": null,
-      "colour": "White",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-court-slam-chunky-sneakers-with-gum-sole-in-white/12686740-1-white"
+      "color": "red/oranges",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-slouchy-wide-leg-jeans-in-orange-part-of-a-set/203187987-1-redoranges",
+      "category": "Jeans"
     },
     {
-      "id": 12692372,
-      "name": "Base London Hogan lace ups in brown",
-      "price": 119,
+      "id": 203187945,
+      "name": "Waven low waist wide leg jeans in washed indigo",
+      "price": 47,
       "originalPrice": null,
-      "colour": "Brown",
-      "brandName": "Base London",
-      "imageUrl": "images.asos-media.com/products/base-london-hogan-lace-ups-in-brown/12692372-1-brown"
+      "color": "Washed indigo",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-low-waist-wide-leg-jeans-in-washed-indigo/203187945-1-washedindigo",
+      "category": "Jeans"
     },
     {
-      "id": 12718178,
-      "name": "House of Hounds cooper creepers in black leather",
-      "price": 125,
+      "id": 203188047,
+      "name": "Waven flared jeans in dark wash indigo",
+      "price": 47,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "House of Hounds",
-      "imageUrl": "images.asos-media.com/products/house-of-hounds-cooper-creepers-in-black-leather/12718178-1-black"
+      "color": "Dark wash indigo",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-flared-jeans-in-dark-wash-indigo/203188047-1-darkwashindigo",
+      "category": "Jeans"
     },
     {
-      "id": 12860967,
-      "name": "Nike Training Figertrap sneakers in black",
-      "price": 75,
+      "id": 203188193,
+      "name": "Waven kick flare cut out jeans in black",
+      "price": 47,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Nike Training",
-      "imageUrl": "images.asos-media.com/products/nike-training-figertrap-sneakers-in-black/12860967-1-black"
+      "color": "Solid black",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-kick-flare-cut-out-jeans-in-black/203188193-1-solidblack",
+      "category": "Jeans"
     },
     {
-      "id": 12907504,
-      "name": "Vans Varix sneakers in black color block",
-      "price": 100,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-varix-sneakers-in-black-color-block/12907504-1-black"
-    },
-    {
-      "id": 12907695,
-      "name": "Vans Anaheim Sk8-hi sneakers in leaf print",
-      "price": 90,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-anaheim-sk8-hi-sneakers-in-leaf-print/12907695-1-black"
-    },
-    {
-      "id": 12907696,
-      "name": "Vans Anaheim Stripe Era sneakers in red/blue",
-      "price": 80,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-anaheim-stripe-era-sneakers-in-red-blue/12907696-1-white"
-    },
-    {
-      "id": 12907708,
-      "name": "Vans Anaheim Stripe Sk8-hi sneakers in red/blue",
-      "price": 90,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-anaheim-stripe-sk8-hi-sneakers-in-red-blue/12907708-1-white"
-    },
-    {
-      "id": 12907712,
-      "name": "Vans Classic Slip-On sneakers In black",
+      "id": 203188230,
+      "name": "Waven slouchy mom jeans with contrast blue hem",
       "price": 50,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-classic-slip-on-sneakers-in-black/12907712-1-black"
+      "color": "Blue",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-slouchy-mom-jeans-with-contrast-blue-hem/203188230-1-blue",
+      "category": "Jeans"
     },
     {
-      "id": 11749003,
-      "name": "New Look color block plimsolls",
-      "price": 24,
+      "id": 203188041,
+      "name": "Waven wide leg cargo jeans with pocket details in washed indigo",
+      "price": 50,
       "originalPrice": null,
-      "colour": "Multi",
-      "brandName": "New Look",
-      "imageUrl": "images.asos-media.com/products/new-look-color-block-plimsolls/11749003-1-multi"
+      "color": "Washed indigo",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-wide-leg-cargo-jeans-with-pocket-details-in-washed-indigo/203188041-1-washedindigo",
+      "category": "Jeans"
     },
     {
-      "id": 11749058,
-      "name": "New Look tassel loafer in navy",
-      "price": 45,
-      "originalPrice": null,
-      "colour": "Navy",
-      "brandName": "New Look",
-      "imageUrl": "images.asos-media.com/products/new-look-tassel-loafer-in-navy/11749058-1-navy"
-    },
-    {
-      "id": 12267779,
-      "name": "adidas Original continental 80 vulc sneakers in off white leather",
-      "price": 70,
-      "originalPrice": null,
-      "colour": "Off white",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-original-continental-80-vulc-sneakers-in-off-white-leather/12267779-1-offwhite"
-    },
-    {
-      "id": 12566974,
-      "name": "Nike P6000 Sneakers in triple white",
-      "price": 100,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-p6000-sneakers-in-triple-white/12566974-1-white"
-    },
-    {
-      "id": 12717957,
-      "name": "House of Hounds bowie loafers in burgundy hi shine leather",
-      "price": 109,
-      "originalPrice": null,
-      "colour": "Red",
-      "brandName": "House of Hounds",
-      "imageUrl": "images.asos-media.com/products/house-of-hounds-bowie-loafers-in-burgundy-hi-shine-leather/12717957-1-red"
-    },
-    {
-      "id": 12860966,
-      "name": "Nike Training Metcon 5 sneakers in green",
-      "price": 130,
-      "originalPrice": null,
-      "colour": "Green",
-      "brandName": "Nike Training",
-      "imageUrl": "images.asos-media.com/products/nike-training-metcon-5-sneakers-in-green/12860966-1-green"
-    },
-    {
-      "id": 12860970,
-      "name": "Nike Training Metcon 5 sneakers in black",
-      "price": 130,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Nike Training",
-      "imageUrl": "images.asos-media.com/products/nike-training-metcon-5-sneakers-in-black/12860970-1-black"
-    },
-    {
-      "id": 12923508,
-      "name": "River Island Suede Desert Boots In Dark Gray",
-      "price": 79,
-      "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "River Island",
-      "imageUrl": "images.asos-media.com/products/river-island-suede-desert-boots-in-dark-gray/12923508-1-grey"
-    },
-    {
-      "id": 11675109,
-      "name": "adidas Originals ozweego sneakers in multi pride",
-      "price": 110,
-      "originalPrice": null,
-      "colour": "Multi",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-originals-ozweego-sneakers-in-multi-pride/11675109-1-multi"
-    },
-    {
-      "id": 11933621,
-      "name": "ASOS DESIGN Wide Fit oxford shoes in tan leather with toe cap",
-      "price": 51,
-      "originalPrice": null,
-      "colour": "Tan",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wide-fit-oxford-shoes-in-tan-leather-with-toe-cap/11933621-1-tan"
-    },
-    {
-      "id": 12550731,
-      "name": "ASOS DESIGN stacked heel western chelsea boots in black faux leather",
-      "price": 45,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-stacked-heel-western-chelsea-boots-in-black-faux-leather/12550731-1-black"
-    },
-    {
-      "id": 12686082,
-      "name": "Lacoste Croco slides with large logo in red",
+      "id": 203188155,
+      "name": "Waven wide leg high waist jeans in brown",
       "price": 47,
       "originalPrice": null,
-      "colour": "Red",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-croco-slides-with-large-logo-in-red/12686082-1-red"
+      "color": "Brown",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-wide-leg-high-waist-jeans-in-brown/203188155-1-brown",
+      "category": "Jeans"
     },
     {
-      "id": 12686098,
-      "name": "Lacoste Challenge sneakers in triple white leather",
-      "price": 101,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-challenge-sneakers-in-triple-white-leather/12686098-1-white"
-    },
-    {
-      "id": 12686749,
-      "name": "Lacoste Menerva Sport sneakers in white",
-      "price": 115,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-menerva-sport-sneakers-in-white/12686749-1-white"
-    },
-    {
-      "id": 11522869,
-      "name": "ASOS DESIGN brogue boots in stone suede with natural sole",
-      "price": 72,
-      "originalPrice": null,
-      "colour": "Stone",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-brogue-boots-in-stone-suede-with-natural-sole/11522869-1-stone"
-    },
-    {
-      "id": 11586785,
-      "name": "ASOS DESIGN Wide Fit stacked heel western chelsea boots in black leather with studding and hardware detail",
-      "price": 87,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wide-fit-stacked-heel-western-chelsea-boots-in-black-leather-with-studding-and-hardware-detail/11586785-1-black"
-    },
-    {
-      "id": 11949726,
-      "name": "ASOS DESIGN sandals in black with chunky sole and studs",
-      "price": 45,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-sandals-in-black-with-chunky-sole-and-studs/11949726-1-black"
-    },
-    {
-      "id": 11949734,
-      "name": "ASOS DESIGN sliders in black with tape slingback",
-      "price": 19,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-sliders-in-black-with-tape-slingback/11949734-1-black"
-    },
-    {
-      "id": 12010338,
-      "name": "ASOS DESIGN Wide Fit backless mule loafer in tan leather with snaffle",
-      "price": 64,
-      "originalPrice": null,
-      "colour": "Tan",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wide-fit-backless-mule-loafer-in-tan-leather-with-snaffle/12010338-1-tan"
-    },
-    {
-      "id": 12010742,
-      "name": "ASOS DESIGN loafers in black leather with gold snaffle",
-      "price": 64,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-loafers-in-black-leather-with-gold-snaffle/12010742-1-black"
-    },
-    {
-      "id": 12011442,
-      "name": "ASOS DESIGN Wide Fit derby shoes in gray suede with piped edging",
-      "price": 51,
-      "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wide-fit-derby-shoes-in-gray-suede-with-piped-edging/12011442-1-grey"
-    },
-    {
-      "id": 12011459,
-      "name": "ASOS DESIGN monk shoes in brown leather with brogue detail",
-      "price": 72,
-      "originalPrice": null,
-      "colour": "Brown",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-monk-shoes-in-brown-leather-with-brogue-detail/12011459-1-brown"
-    },
-    {
-      "id": 12018593,
-      "name": "ASOS DESIGN stacked heel western chelsea boots in silver glitter",
-      "price": 48,
-      "originalPrice": null,
-      "colour": "Multi",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-stacked-heel-western-chelsea-boots-in-silver-glitter/12018593-1-multi"
-    },
-    {
-      "id": 12091885,
-      "name": "ASOS DESIGN lace up shoes in gray suede with natural sole",
-      "price": 51,
-      "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-lace-up-shoes-in-gray-suede-with-natural-sole/12091885-1-grey"
-    },
-    {
-      "id": 12686066,
-      "name": "Lacoste Partner Retro runners in black",
-      "price": 115,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-partner-retro-runners-in-black/12686066-1-black"
-    },
-    {
-      "id": 12686095,
-      "name": "Lacoste Croco slides with large logo in black",
+      "id": 203188250,
+      "name": "Waven slouchy mom fit jeans in beige",
       "price": 47,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-croco-slides-with-large-logo-in-black/12686095-1-black"
+      "color": "Beige",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-slouchy-mom-fit-jeans-in-beige/203188250-1-beige",
+      "category": "Jeans"
     },
     {
-      "id": 12688882,
-      "name": "Ted Baker esheron canvas sneakers in black",
-      "price": 125,
+      "id": 203911835,
+      "name": "Weekday Smooth mid rise slim straight leg jeans in winter blue",
+      "price": 55,
+      "originalPrice": 78,
+      "color": "Winter blue",
+      "brandName": "Weekday",
+      "imageUrl": "images.asos-media.com/products/weekday-smooth-mid-rise-slim-straight-leg-jeans-in-winter-blue/203911835-1-winterblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203881059,
+      "name": "Fae high waist wide leg jeans in fuchsia pink wash",
+      "price": 56,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Ted Baker",
-      "imageUrl": "images.asos-media.com/products/ted-baker-esheron-canvas-sneakers-in-black/12688882-1-black"
+      "color": "Fuchsia Pink",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-wide-leg-jeans-in-fuchsia-pink-wash/203881059-1-fuchsiapink",
+      "category": "Jeans"
     },
     {
-      "id": 12688915,
-      "name": "Ted Baker daiser loafer in brown suede",
-      "price": 220,
+      "id": 203431099,
+      "name": "Only coral skinny jean In washed black",
+      "price": 37,
       "originalPrice": null,
-      "colour": "Brown",
-      "brandName": "Ted Baker",
-      "imageUrl": "images.asos-media.com/products/ted-baker-daiser-loafer-in-brown-suede/12688915-1-brown"
+      "color": "Med gray",
+      "brandName": "Only",
+      "imageUrl": "images.asos-media.com/products/only-coral-skinny-jean-in-washed-black/203431099-1-medgrey",
+      "category": "Jeans"
     },
     {
-      "id": 12688919,
-      "name": "Ted Baker lhennis sneakers in gray",
-      "price": 173,
+      "id": 203633348,
+      "name": "ASOS DESIGN low rise flared jeans with western pocket detail in dark blue",
+      "price": 31.5,
+      "originalPrice": 52,
+      "color": "Dark blue",
+      "brandName": "ASOS DESIGN",
+      "imageUrl": "images.asos-media.com/products/asos-design-low-rise-flared-jeans-with-western-pocket-detail-in-dark-blue/203633348-1-darkblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203687463,
+      "name": "Noisy May Curve mid rise a-line printed jeans in purple and green wave print",
+      "price": 58,
       "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "Ted Baker",
-      "imageUrl": "images.asos-media.com/products/ted-baker-lhennis-sneakers-in-gray/12688919-1-grey"
+      "color": "Purple And Green",
+      "brandName": "Noisy May Curve",
+      "imageUrl": "images.asos-media.com/products/noisy-may-curve-mid-rise-a-line-printed-jeans-in-purple-and-green-wave-print/203687463-1-purpleandgreen",
+      "category": "Jeans"
     },
     {
-      "id": 12688922,
-      "name": "Ted Baker daiser loafer in black leather",
-      "price": 220,
+      "id": 204046300,
+      "name": "New Look boot cut flared high rise jeans in black",
+      "price": 20.5,
+      "originalPrice": 48.08,
+      "color": "Black",
+      "brandName": "New Look",
+      "imageUrl": "images.asos-media.com/products/new-look-boot-cut-flared-high-rise-jeans-in-black/204046300-1-black",
+      "category": "Jeans"
+    },
+    {
+      "id": 203787184,
+      "name": "ASOS DESIGN low rise baggy boyfriend jeans with knee patches in washed black",
+      "price": 32.5,
+      "originalPrice": 54,
+      "color": "WASHED BLACK",
+      "brandName": "ASOS DESIGN",
+      "imageUrl": "images.asos-media.com/products/asos-design-low-rise-baggy-boyfriend-jeans-with-knee-patches-in-washed-black/203787184-1-washedblack",
+      "category": "Jeans"
+    },
+    {
+      "id": 203881003,
+      "name": "Fae high waist wide leg jeans in charcoal gray",
+      "price": 56,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Ted Baker",
-      "imageUrl": "images.asos-media.com/products/ted-baker-daiser-loafer-in-black-leather/12688922-1-black"
+      "color": "Charcoal gray",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-wide-leg-jeans-in-charcoal-gray/203881003-1-charcoalgrey",
+      "category": "Jeans"
     },
     {
-      "id": 11072800,
-      "name": "Havaianas Top flip flops in white",
-      "price": 29,
+      "id": 203515741,
+      "name": "COLLUSION x005 straight leg jeans in yellow tie dye",
+      "price": 46.5,
+      "originalPrice": 65.9,
+      "color": "Multi",
+      "brandName": "Collusion",
+      "imageUrl": "images.asos-media.com/products/collusion-x005-straight-leg-jeans-in-yellow-tie-dye/203515741-1-multi",
+      "category": "Jeans"
+    },
+    {
+      "id": 203789390,
+      "name": "ASOS DESIGN easy straight jean in black with contrast white stich",
+      "price": 25.5,
+      "originalPrice": 46,
+      "color": "Black",
+      "brandName": "ASOS DESIGN",
+      "imageUrl": "images.asos-media.com/products/asos-design-easy-straight-jean-in-black-with-contrast-white-stich/203789390-1-black",
+      "category": "Jeans"
+    },
+    {
+      "id": 203864094,
+      "name": "Wrangler high rise skinny jean in midwash blue",
+      "price": 108,
       "originalPrice": null,
-      "colour": "White",
-      "brandName": "Havaianas",
-      "imageUrl": "images.asos-media.com/products/havaianas-top-flip-flops-in-white/11072800-1-white"
+      "color": "Stonewash Mid",
+      "brandName": "Wrangler",
+      "imageUrl": "images.asos-media.com/products/wrangler-high-rise-skinny-jean-in-midwash-blue/203864094-1-stonewashmid",
+      "category": "Jeans"
     },
     {
-      "id": 11208675,
-      "name": "Dr Martens 8092 Arc sandals in dark brown",
-      "price": 95.5,
-      "originalPrice": 137,
-      "colour": "Brown",
-      "brandName": "Dr Martens",
-      "imageUrl": "images.asos-media.com/products/dr-martens-8092-arc-sandals-in-dark-brown/11208675-1-brown"
-    },
-    {
-      "id": 11608251,
-      "name": "Superdry Adam espadrille shoes in gray",
-      "price": 39.5,
+      "id": 203864192,
+      "name": "Wrangler bootcut jean in black",
+      "price": 108,
       "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "Superdry",
-      "imageUrl": "images.asos-media.com/products/superdry-adam-espadrille-shoes-in-gray/11608251-1-grey"
+      "color": "Easy Black",
+      "brandName": "Wrangler",
+      "imageUrl": "images.asos-media.com/products/wrangler-bootcut-jean-in-black/203864192-1-easyblack",
+      "category": "Jeans"
     },
     {
-      "id": 12565459,
-      "name": "Nike Air Force 1 with sneakers red swoosh and gum sole",
-      "price": 90,
+      "id": 203881076,
+      "name": "Fae high waist mom jean with all over diamante embellishment in acid gray denim - part of a set",
+      "price": 66,
       "originalPrice": null,
-      "colour": "White/red",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-air-force-1-with-sneakers-red-swoosh-and-gum-sole/12565459-1-whitered"
+      "color": "Acid Gray",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-mom-jean-with-all-over-diamante-embellishment-in-acid-gray-denim-part-of-a-set/203881076-1-acidgrey",
+      "category": "Jeans"
     },
     {
-      "id": 12592338,
-      "name": "River Island espadrilles in tan",
-      "price": 28,
-      "originalPrice": 40,
-      "colour": "Tan",
-      "brandName": "River Island",
-      "imageUrl": "images.asos-media.com/products/river-island-espadrilles-in-tan/12592338-1-tan"
-    },
-    {
-      "id": 12688925,
-      "name": "Ted Baker mitack brogues in tan leather",
-      "price": 173,
-      "originalPrice": null,
-      "colour": "Tan",
-      "brandName": "Ted Baker",
-      "imageUrl": "images.asos-media.com/products/ted-baker-mitack-brogues-in-tan-leather/12688925-1-tan"
-    },
-    {
-      "id": 203909862,
-      "name": "Loyalty & Faith basketball shoes in white",
+      "id": 203880929,
+      "name": "Fae high waist mom jeans in dark blue",
       "price": 52,
       "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-faith-basketball-shoes-in-white/203909862-1-white"
+      "color": "Dark blue",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-mom-jeans-in-dark-blue/203880929-1-darkblue",
+      "category": "Jeans"
     },
     {
-      "id": 203909893,
-      "name": "Loyalty and Faith ribbed slip on espadrilles in black",
-      "price": 39,
+      "id": 203864057,
+      "name": "Wrangler high rise skinny jean in black",
+      "price": 108,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-ribbed-slip-on-espadrilles-in-black/203909893-1-black"
+      "color": "Easy Black",
+      "brandName": "Wrangler",
+      "imageUrl": "images.asos-media.com/products/wrangler-high-rise-skinny-jean-in-black/203864057-1-easyblack",
+      "category": "Jeans"
     },
     {
-      "id": 203909909,
-      "name": "Loyalty & Faith ribbed slip-on espadrilles in gray",
-      "price": 39,
+      "id": 203062707,
+      "name": "Stradivarius cropped flare jean with front pocket in mid wash",
+      "price": 32.5,
+      "originalPrice": 45.9,
+      "color": "BLUE",
+      "brandName": "Stradivarius",
+      "imageUrl": "images.asos-media.com/products/stradivarius-cropped-flare-jean-with-front-pocket-in-mid-wash/203062707-1-blue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203864128,
+      "name": "Wrangler bootcut jean in midwash blue",
+      "price": 108,
       "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-faith-ribbed-slip-on-espadrilles-in-gray/203909909-1-grey"
+      "color": "Wild one",
+      "brandName": "Wrangler",
+      "imageUrl": "images.asos-media.com/products/wrangler-bootcut-jean-in-midwash-blue/203864128-1-wildone",
+      "category": "Jeans"
     },
     {
-      "id": 203909934,
-      "name": "Loyalty & Faith hi-top sneakers in white/black",
+      "id": 204070405,
+      "name": "Weekday Ample low rise baggy jeans in red cast blue wash",
       "price": 61,
-      "originalPrice": null,
-      "colour": "White/black",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-faith-hi-top-sneakers-in-white-black/203909934-1-whiteblack"
+      "originalPrice": 87,
+      "color": "RED CAST WASH",
+      "brandName": "Weekday",
+      "imageUrl": "images.asos-media.com/products/weekday-ample-low-rise-baggy-jeans-in-red-cast-blue-wash/204070405-1-redcastwash",
+      "category": "Jeans"
     },
     {
-      "id": 204075970,
-      "name": "ASOS DESIGN loafers in stone suede with natural sole",
-      "price": 71,
-      "originalPrice": null,
-      "colour": "STONE",
+      "id": 203633328,
+      "name": "ASOS DESIGN power stretch skinny kick flare with split hem in black",
+      "price": 27,
+      "originalPrice": 49,
+      "color": "Black",
       "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-loafers-in-stone-suede-with-natural-sole/204075970-1-stone"
+      "imageUrl": "images.asos-media.com/products/asos-design-power-stretch-skinny-kick-flare-with-split-hem-in-black/203633328-1-black",
+      "category": "Jeans"
     },
     {
-      "id": 204117785,
-      "name": "Ben Sherman wide fit logo slides in white",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "WHITE/BLUE WRITING",
-      "brandName": "Ben Sherman",
-      "imageUrl": "images.asos-media.com/products/ben-sherman-wide-fit-logo-slides-in-white/204117785-1-whitebluewriting"
-    },
-    {
-      "id": 202222083,
-      "name": "RIPNDIP lord alien face slides in green",
-      "price": 61,
-      "originalPrice": null,
-      "colour": "GREEN",
-      "brandName": "Rip N Dip",
-      "imageUrl": "images.asos-media.com/products/ripndip-lord-alien-face-slides-in-green/202222083-1-green"
-    },
-    {
-      "id": 202222669,
-      "name": "RIPNDIP lord jermal face slides in black",
-      "price": 61,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Rip N Dip",
-      "imageUrl": "images.asos-media.com/products/ripndip-lord-jermal-face-slides-in-black/202222669-1-black"
-    },
-    {
-      "id": 204045291,
-      "name": "Converse Chuck Taylor All Star Hi leather sneakers in cream",
-      "price": 70,
-      "originalPrice": null,
-      "colour": "Cream",
-      "brandName": "Converse",
-      "imageUrl": "images.asos-media.com/products/converse-chuck-taylor-all-star-hi-leather-sneakers-in-cream/204045291-1-cream"
-    },
-    {
-      "id": 204047593,
-      "name": "Converse Chuck 70 Ox Vintage sneakers in burgundy",
-      "price": 80,
-      "originalPrice": null,
-      "colour": "Burgundy",
-      "brandName": "Converse",
-      "imageUrl": "images.asos-media.com/products/converse-chuck-70-ox-vintage-sneakers-in-burgundy/204047593-1-burgundy"
-    },
-    {
-      "id": 204167650,
-      "name": "ASOS DESIGN smiley collab slides in black and white print",
-      "price": 29,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-slides-in-black-and-white-print/204167650-1-black"
-    },
-    {
-      "id": 204167660,
-      "name": "ASOS DESIGN Smiley collab sliders in black",
-      "price": 26,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-sliders-in-black/204167660-1-black"
-    },
-    {
-      "id": 204537195,
-      "name": "Converse Chuck 70s floral print sneakers in cream",
+      "id": 201327299,
+      "name": "Wrangler skinny jeans in perfect black",
       "price": 95,
       "originalPrice": null,
-      "colour": "Cream",
-      "brandName": "Converse",
-      "imageUrl": "images.asos-media.com/products/converse-chuck-70s-floral-print-sneakers-in-cream/204537195-1-cream"
+      "color": "Perfect Black",
+      "brandName": "Wrangler",
+      "imageUrl": "images.asos-media.com/products/wrangler-skinny-jeans-in-perfect-black/201327299-1-perfectblack",
+      "category": "Jeans"
     },
     {
-      "id": 23556207,
-      "name": "Jack & Jones flip flops with logo in white",
-      "price": 15.5,
-      "originalPrice": null,
-      "colour": "White",
-      "brandName": "Jack & Jones",
-      "imageUrl": "images.asos-media.com/products/jack-jones-flip-flops-with-logo-in-white/23556207-1-white"
+      "id": 203221551,
+      "name": "COLLUSION x008 relaxed flare jeans with wash in dark blue",
+      "price": 35,
+      "originalPrice": 49.9,
+      "color": "MID BLUE",
+      "brandName": "Collusion",
+      "imageUrl": "images.asos-media.com/products/collusion-x008-relaxed-flare-jeans-with-wash-in-dark-blue/203221551-1-midblue",
+      "category": "Jeans"
     },
     {
-      "id": 204074423,
-      "name": "ASOS DESIGN loafers with weave detail in black leather",
-      "price": 63,
-      "originalPrice": null,
-      "colour": "Black",
+      "id": 203633318,
+      "name": "ASOS DESIGN oversized boyfriend jeans in dark blue",
+      "price": 31.5,
+      "originalPrice": 52,
+      "color": "Dark blue",
       "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-loafers-with-weave-detail-in-black-leather/204074423-1-black"
+      "imageUrl": "images.asos-media.com/products/asos-design-oversized-boyfriend-jeans-in-dark-blue/203633318-1-darkblue",
+      "category": "Jeans"
     },
     {
-      "id": 204106720,
-      "name": "ASOS DESIGN loafers with weave detail in tan leather",
-      "price": 63,
+      "id": 203880916,
+      "name": "Fae low waist wide leg jeans in washed black",
+      "price": 56,
       "originalPrice": null,
-      "colour": "TAN",
+      "color": "WASHED BLACK",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-low-waist-wide-leg-jeans-in-washed-black/203880916-1-washedblack",
+      "category": "Jeans"
+    },
+    {
+      "id": 203880988,
+      "name": "Fae high waist mom jeans in bleach blue",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Bleach blue",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-mom-jeans-in-bleach-blue/203880988-1-bleachblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203880859,
+      "name": "Fae low waist wide leg jeans in dark wash blue",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Dark wash blue",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-low-waist-wide-leg-jeans-in-dark-wash-blue/203880859-1-darkwashblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203880884,
+      "name": "Fae 90s low rise wide leg jeans",
+      "price": 56,
+      "originalPrice": null,
+      "color": "GREEN",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-90s-low-rise-wide-leg-jeans/203880884-1-green",
+      "category": "Jeans"
+    },
+    {
+      "id": 203881051,
+      "name": "Fae 90s low rise wide leg jeans in black",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Solid Black",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-90s-low-rise-wide-leg-jeans-in-black/203881051-1-solidblack",
+      "category": "Jeans"
+    },
+    {
+      "id": 203881067,
+      "name": "Fae high waist western style top stitch jeans in indigo blue",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Indigo blue",
+      "brandName": "FAE",
+      "imageUrl": "images.asos-media.com/products/fae-high-waist-western-style-top-stitch-jeans-in-indigo-blue/203881067-1-indigoblue",
+      "category": "Jeans"
+    },
+    {
+      "id": 203196107,
+      "name": "ASOS DESIGN Hourglass 90s straight jeans in vintage lightwash",
+      "price": 28,
+      "originalPrice": 40,
+      "color": "LIGHT BLUE",
       "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-loafers-with-weave-detail-in-tan-leather/204106720-1-tan"
+      "imageUrl": "images.asos-media.com/products/asos-design-hourglass-90s-straight-jeans-in-vintage-lightwash/203196107-1-lightblue",
+      "category": "Jeans"
     },
     {
-      "id": 204139244,
-      "name": "ASOS DESIGN cross strap sandals in brown leather",
-      "price": 37,
+      "id": 203364757,
+      "name": "Threadbare Dixie oversized sweater in chocolate brown",
+      "price": 25,
       "originalPrice": null,
-      "colour": "BROWN",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-cross-strap-sandals-in-brown-leather/204139244-1-brown"
+      "color": "Chocolate",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-sweater-in-chocolate-brown/203364757-1-chocolate",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 204350131,
-      "name": "ASOS DESIGN slip-on sneakers with baroque print",
-      "price": 37,
+      "id": 203364805,
+      "name": "Threadbare Dixie oversized embroidered sweater in black",
+      "price": 27,
       "originalPrice": null,
-      "colour": "NAVY",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-slip-on-sneakers-with-baroque-print/204350131-1-navy"
+      "color": "Black/pink",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-embroidered-sweater-in-black/203364805-1-blackpink",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203494842,
-      "name": "Nike Court Legacy Next sneakers in white and gray - WHITE",
-      "price": 75,
+      "id": 203364916,
+      "name": "Threadbare Dixie oversized sweater in cobalt",
+      "price": 25,
       "originalPrice": null,
-      "colour": "WHITE/MULTI-BLACK",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-court-legacy-next-sneakers-in-white-and-gray-white/203494842-1-whitemultiblack"
+      "color": "Cobalt blue",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-sweater-in-cobalt/203364916-1-cobaltblue",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203514956,
-      "name": "Lacoste croco sliders in gray/navy",
+      "id": 203364932,
+      "name": "Threadbare Dixie oversized sweater in pink",
+      "price": 25,
+      "originalPrice": null,
+      "color": "PINK",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-sweater-in-pink/203364932-1-pink",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203364965,
+      "name": "Threadbare Dixie oversized sweatshirt in cyan",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Cyan",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-sweatshirt-in-cyan/203364965-1-cyan",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203364997,
+      "name": "Threadbare Dixie oversized embroidered celestial sweater in black",
+      "price": 27,
+      "originalPrice": null,
+      "color": "Black/white",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-embroidered-celestial-sweater-in-black/203364997-1-blackwhite",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203365012,
+      "name": "Threadbare Dixie oversized printed sweater in navy",
+      "price": 27,
+      "originalPrice": null,
+      "color": "Navy/ pink",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-printed-sweater-in-navy/203365012-1-navypink",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203365013,
+      "name": "Threadbare Dixie oversized sweater in deep wine",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Wine",
+      "brandName": "Threadbare",
+      "imageUrl": "images.asos-media.com/products/threadbare-dixie-oversized-sweater-in-deep-wine/203365013-1-wine",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203367727,
+      "name": "Threadbare Petite Dixie oversized sweater in pink",
+      "price": 25,
+      "originalPrice": null,
+      "color": "PINK",
+      "brandName": "Threadbare Petite",
+      "imageUrl": "images.asos-media.com/products/threadbare-petite-dixie-oversized-sweater-in-pink/203367727-1-pink",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203367752,
+      "name": "Threadbare Plus Dixie oversized sweater in deep wine",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Wine",
+      "brandName": "Threadbare Curve",
+      "imageUrl": "images.asos-media.com/products/threadbare-plus-dixie-oversized-sweater-in-deep-wine/203367752-1-wine",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203367797,
+      "name": "Threadbare Tall Dixie oversized sweater in cobalt",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Cobalt blue",
+      "brandName": "Threadbare Tall",
+      "imageUrl": "images.asos-media.com/products/threadbare-tall-dixie-oversized-sweater-in-cobalt/203367797-1-cobaltblue",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203367889,
+      "name": "Threadbare Petite Dixie oversized sweater in cyan",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Cyan",
+      "brandName": "Threadbare Petite",
+      "imageUrl": "images.asos-media.com/products/threadbare-petite-dixie-oversized-sweater-in-cyan/203367889-1-cyan",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203367928,
+      "name": "Threadbare Plus Dixie oversized sweater in chocolate brown",
+      "price": 25,
+      "originalPrice": null,
+      "color": "Chocolate",
+      "brandName": "Threadbare Curve",
+      "imageUrl": "images.asos-media.com/products/threadbare-plus-dixie-oversized-sweater-in-chocolate-brown/203367928-1-chocolate",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203463710,
+      "name": "Threadbare Ski printed sweater in pastel blue houndstooth",
+      "price": 27,
+      "originalPrice": null,
+      "color": "Blue/White",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-printed-sweater-in-pastel-blue-houndstooth/203463710-1-bluewhite",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203478694,
+      "name": "Threadbare Tall Ski printed sweatshirt in black and white",
+      "price": 27,
+      "originalPrice": null,
+      "color": "Black/white",
+      "brandName": "Threadbare Fitness Tall",
+      "imageUrl": "images.asos-media.com/products/threadbare-tall-ski-printed-sweatshirt-in-black-and-white/203478694-1-blackwhite",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203463416,
+      "name": "Threadbare Ski embroidered sweater in white",
+      "price": 27,
+      "originalPrice": null,
+      "color": "White/green",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-embroidered-sweater-in-white/203463416-1-whitegreen",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203463504,
+      "name": "Threadbare Ski printed sweater in black and white",
+      "price": 27,
+      "originalPrice": null,
+      "color": "Black/white",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-printed-sweater-in-black-and-white/203463504-1-blackwhite",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738082,
+      "name": "New Love Club cropped sweatshirt with cat print in gray melange",
       "price": 47,
       "originalPrice": null,
-      "colour": "GRY/NVY",
-      "brandName": "Lacoste",
-      "imageUrl": "images.asos-media.com/products/lacoste-croco-sliders-in-gray-navy/203514956-1-grynvy"
+      "color": "GRAY MELANGE",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-cropped-sweatshirt-with-cat-print-in-gray-melange/203738082-1-greymeleange",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203866943,
-      "name": "London Rebel X wide fit buckle slides in black",
-      "price": 25,
+      "id": 203738096,
+      "name": "New Love Club cropped sweatshirt with dog embroidery in tan",
+      "price": 47,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "London Rebel X",
-      "imageUrl": "images.asos-media.com/products/london-rebel-x-wide-fit-buckle-slides-in-black/203866943-1-black"
+      "color": "TAN",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-cropped-sweatshirt-with-dog-embroidery-in-tan/203738096-1-tan",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203866975,
-      "name": "London Rebel X wide fit buckle sliders in white",
-      "price": 25,
+      "id": 203902911,
+      "name": "Threadbare Fitness fitted running quarter zip top in black",
+      "price": 56,
       "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "London Rebel X",
-      "imageUrl": "images.asos-media.com/products/london-rebel-x-wide-fit-buckle-sliders-in-white/203866975-1-white"
+      "color": "Black",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-fitness-fitted-running-quarter-zip-top-in-black/203902911-1-black",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203909877,
-      "name": "Loyalty and Faith runner sneakers in white",
-      "price": 49,
+      "id": 203727602,
+      "name": "Only cropped elasticated sweatshirt in light blue",
+      "price": 30,
       "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-runner-sneakers-in-white/203909877-1-white"
+      "color": "Harbor gray",
+      "brandName": "Only",
+      "imageUrl": "images.asos-media.com/products/only-cropped-elasticated-sweatshirt-in-light-blue/203727602-1-harborgray",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203909910,
-      "name": "Loyalty and Faith ribbed slip on espadrilles in white",
-      "price": 39,
+      "id": 203727819,
+      "name": "Only cropped elasticized sweatshirt in beige",
+      "price": 30,
       "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-ribbed-slip-on-espadrilles-in-white/203909910-1-white"
+      "color": "Nomad",
+      "brandName": "Only",
+      "imageUrl": "images.asos-media.com/products/only-cropped-elasticized-sweatshirt-in-beige/203727819-1-nomad",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203909925,
-      "name": "Loyalty and Faith logo pool flip flops in black",
-      "price": 14,
-      "originalPrice": null,
-      "colour": "Black / gold",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-logo-pool-flip-flops-in-black/203909925-1-blackgold"
-    },
-    {
-      "id": 203909949,
-      "name": "Loyalty and Faith logo pool slides in white/gold",
-      "price": 21,
-      "originalPrice": null,
-      "colour": "White/gold",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-logo-pool-slides-in-white-gold/203909949-1-whitegold"
-    },
-    {
-      "id": 203909958,
-      "name": "Loyalty & Faith running sneakers in toffee",
-      "price": 49,
-      "originalPrice": null,
-      "colour": "Toffee",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-faith-running-sneakers-in-toffee/203909958-1-toffee"
-    },
-    {
-      "id": 203909973,
-      "name": "Loyalty and Faith logo pool sliders in black/gold",
-      "price": 21,
-      "originalPrice": null,
-      "colour": "Black / gold",
-      "brandName": "Loyalty & Faith",
-      "imageUrl": "images.asos-media.com/products/loyalty-and-faith-logo-pool-sliders-in-black-gold/203909973-1-blackgold"
-    },
-    {
-      "id": 203987088,
-      "name": "ASOS DESIGN chunky lace up sneakers in white textile",
-      "price": 35,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-chunky-lace-up-sneakers-in-white-textile/203987088-1-white"
-    },
-    {
-      "id": 203987210,
-      "name": "ASOS DESIGN knit slip on sneakers in stone",
+      "id": 203464338,
+      "name": "Threadbare Ski knitted hoodie in black",
       "price": 37,
       "originalPrice": null,
-      "colour": "STONE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-knit-slip-on-sneakers-in-stone/203987210-1-stone"
+      "color": "Black",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-knitted-hoodie-in-black/203464338-1-black",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 204117714,
-      "name": "Ben Sherman pool slides in navy",
-      "price": 25,
+      "id": 203478184,
+      "name": "Threadbare Plus Ski knitted hoodie in black",
+      "price": 37,
       "originalPrice": null,
-      "colour": "Navy/navy",
-      "brandName": "Ben Sherman",
-      "imageUrl": "images.asos-media.com/products/ben-sherman-pool-slides-in-navy/204117714-1-navynavy"
+      "color": "Black",
+      "brandName": "Threadbare Fitness Curve",
+      "imageUrl": "images.asos-media.com/products/threadbare-plus-ski-knitted-hoodie-in-black/203478184-1-black",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 204716307,
-      "name": "Pull&Bear slip on clogs in brown",
-      "price": 49.9,
+      "id": 203738103,
+      "name": "New Love Club cropped sweater with dog print in tan",
+      "price": 42,
       "originalPrice": null,
-      "colour": "Brown",
-      "brandName": "Pull&Bear",
-      "imageUrl": "images.asos-media.com/products/pullbear-slip-on-clogs-in-brown/204716307-1-brown"
+      "color": "TAN",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-cropped-sweater-with-dog-print-in-tan/203738103-1-tan",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 202700479,
-      "name": "schuh walt sneakers in white",
-      "price": 78,
+      "id": 203738117,
+      "name": "New Love Club peach juice graphic sweater in white",
+      "price": 53,
       "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Schuh",
-      "imageUrl": "images.asos-media.com/products/schuh-walt-sneakers-in-white/202700479-1-white"
+      "color": "WHITE",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-peach-juice-graphic-sweater-in-white/203738117-1-white",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203494637,
-      "name": "Nike Air Max 270 sneakers in white/fuchsia",
-      "price": 160,
+      "id": 203738262,
+      "name": "HNR LDN Plus 777 luck back graphic sweatshirt in ash gray",
+      "price": 43,
       "originalPrice": null,
-      "colour": "WHITE/FUCHSIA",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-air-max-270-sneakers-in-white-fuchsia/203494637-1-whitefuchsia"
+      "color": "Ash gray",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-777-luck-back-graphic-sweatshirt-in-ash-gray/203738262-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203494969,
-      "name": "Nike Air Max 90 sneakers in white",
-      "price": 130,
+      "id": 203738213,
+      "name": "HNR LDN aquarius star sign sweatshirt in natural",
+      "price": 43,
       "originalPrice": null,
-      "colour": "SUMMIT WHITE/BONE",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-air-max-90-sneakers-in-white/203494969-1-summitwhitebone"
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-aquarius-star-sign-sweatshirt-in-natural/203738213-1-natural",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203507619,
-      "name": "Nike Air Max SC sneakers in blue",
-      "price": 85,
+      "id": 203738220,
+      "name": "HNR LDN gemini star sign sweatshirt in natural",
+      "price": 43,
       "originalPrice": null,
-      "colour": "BLUE",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-air-max-sc-sneakers-in-blue/203507619-1-blue"
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-gemini-star-sign-sweatshirt-in-natural/203738220-1-natural",
+      "category": "Hoodies & Sweatshirts"
     },
     {
-      "id": 203840070,
-      "name": "Original Penguin canvas mix casual boat shoes in sand",
+      "id": 203738241,
+      "name": "HNR LDN taurus star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-taurus-star-sign-sweatshirt-in-natural/203738241-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203749392,
+      "name": "HNR LDN Plus libra star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Hounour Plus",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-libra-star-sign-sweatshirt-in-natural/203749392-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738185,
+      "name": "HNR LDN cancer star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-cancer-star-sign-sweatshirt-in-natural/203738185-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738192,
+      "name": "HNR LDN virgo star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-virgo-star-sign-sweatshirt-in-natural/203738192-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738276,
+      "name": "HNR LDN capricorn star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-capricorn-star-sign-sweatshirt-in-natural/203738276-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738110,
+      "name": "New Love Club cropped sweater with whale embroidery in blue",
+      "price": 42,
+      "originalPrice": null,
+      "color": "BLUE",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-cropped-sweater-with-whale-embroidery-in-blue/203738110-1-blue",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738089,
+      "name": "New Love Club cropped sweater with whale embroidery in white",
+      "price": 42,
+      "originalPrice": null,
+      "color": "WHITE",
+      "brandName": "New Love Club",
+      "imageUrl": "images.asos-media.com/products/new-love-club-cropped-sweater-with-whale-embroidery-in-white/203738089-1-white",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738199,
+      "name": "HNR LDN angel numbers sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-angel-numbers-sweatshirt-in-natural/203738199-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738255,
+      "name": "HNR LDN tarot card moon graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-tarot-card-moon-graphic-sweatshirt-in-ash-gray/203738255-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203749358,
+      "name": "HNR LDN Plus hamsa graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Hounour Plus",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-hamsa-graphic-sweatshirt-in-ash-gray/203749358-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203749377,
+      "name": "HNR LDN Plus angel numbers sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Hounour Plus",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-angel-numbers-sweatshirt-in-natural/203749377-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203749387,
+      "name": "HNR LDN Plus tarot card moon graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Hounour Plus",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-tarot-card-moon-graphic-sweatshirt-in-ash-gray/203749387-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203749439,
+      "name": "HNR LDN Plus 777 luck back graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Hounour Plus",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-plus-777-luck-back-graphic-sweatshirt-in-ash-gray/203749439-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738163,
+      "name": "HNR LDN aries star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-aries-star-sign-sweatshirt-in-natural/203738163-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738165,
+      "name": "HNR LDN tarot card sun graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-tarot-card-sun-graphic-sweatshirt-in-ash-gray/203738165-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738172,
+      "name": "HNR LDN scorpio star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-scorpio-star-sign-sweatshirt-in-natural/203738172-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738206,
+      "name": "HNR LDN pisces star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-pisces-star-sign-sweatshirt-in-natural/203738206-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738227,
+      "name": "HNR LDN libra star sign sweatshirt in natural",
+      "price": 43,
+      "originalPrice": null,
+      "color": "NATURAL",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-libra-star-sign-sweatshirt-in-natural/203738227-1-natural",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 203738234,
+      "name": "HNR LDN hamsa graphic sweatshirt in ash gray",
+      "price": 43,
+      "originalPrice": null,
+      "color": "Ash gray",
+      "brandName": "Honour",
+      "imageUrl": "images.asos-media.com/products/hnr-ldn-hamsa-graphic-sweatshirt-in-ash-gray/203738234-1-ashgrey",
+      "category": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": 24147980,
+      "name": "Only renja teddy vest in beige",
+      "price": 40,
+      "originalPrice": null,
+      "color": "Iced coffee",
+      "brandName": "Only",
+      "imageUrl": "images.asos-media.com/products/only-renja-teddy-vest-in-beige/24147980-1-icedcoffee",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203077720,
+      "name": "Rebellious Fashion cropped tailored blazer in cobalt blue - part of a set",
+      "price": 43,
+      "originalPrice": null,
+      "color": "BLUE",
+      "brandName": "Rebellious Fashion",
+      "imageUrl": "images.asos-media.com/products/rebellious-fashion-cropped-tailored-blazer-in-cobalt-blue-part-of-a-set/203077720-1-blue",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203897947,
+      "name": "Only zebra print raincoat in silver zebra print",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Silver Lining",
+      "brandName": "Only",
+      "imageUrl": "images.asos-media.com/products/only-zebra-print-raincoat-in-silver-zebra-print/203897947-1-silverlining",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203553583,
+      "name": "Bolongaro Trevor cropped utililty jacket in beige",
+      "price": 116,
+      "originalPrice": null,
+      "color": "Off-white",
+      "brandName": "Bolongaro Trevor",
+      "imageUrl": "images.asos-media.com/products/bolongaro-trevor-cropped-utililty-jacket-in-beige/203553583-1-offwhite",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 202904544,
+      "name": "DTT Margo diamond quilt bomber jacket in sage green",
+      "price": 53,
+      "originalPrice": null,
+      "color": "Dusty sage",
+      "brandName": "Don't Think Twice",
+      "imageUrl": "images.asos-media.com/products/dtt-margo-diamond-quilt-bomber-jacket-in-sage-green/202904544-1-dustysage",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203464225,
+      "name": "Threadbare Ski poncho in black",
+      "price": 42,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-poncho-in-black/203464225-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203464454,
+      "name": "Threadbare Ski poncho with print trim in black",
+      "price": 42,
+      "originalPrice": null,
+      "color": "Black/white",
+      "brandName": "Threadbare Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-ski-poncho-with-print-trim-in-black/203464454-1-blackwhite",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203478550,
+      "name": "Threadbare Plus Ski poncho with print trim in black",
+      "price": 42,
+      "originalPrice": null,
+      "color": "Black/white",
+      "brandName": "Threadbare Fitness Curve",
+      "imageUrl": "images.asos-media.com/products/threadbare-plus-ski-poncho-with-print-trim-in-black/203478550-1-blackwhite",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203478732,
+      "name": "Threadbare Plus Ski poncho in black",
+      "price": 42,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Threadbare Fitness Curve",
+      "imageUrl": "images.asos-media.com/products/threadbare-plus-ski-poncho-in-black/203478732-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 200533352,
+      "name": "Threadbare Fitness running padded vest in black",
+      "price": 45,
+      "originalPrice": null,
+      "color": "BLACK",
+      "brandName": "Threadbare Plus Fitness",
+      "imageUrl": "images.asos-media.com/products/threadbare-fitness-running-padded-vest-in-black/200533352-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 202834335,
+      "name": "QED London Tall faux fur vest in black",
+      "price": 56,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "QED London Tall",
+      "imageUrl": "images.asos-media.com/products/qed-london-tall-faux-fur-vest-in-black/202834335-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203570242,
+      "name": "Unique21 tailored blazer in gray - part of a set",
+      "price": 58,
+      "originalPrice": null,
+      "color": "Gray",
+      "brandName": "UNIQUE21",
+      "imageUrl": "images.asos-media.com/products/unique21-tailored-blazer-in-gray-part-of-a-set/203570242-1-grey",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203077612,
+      "name": "Rebellious Fashion double breasted blazer in light blue - part of a set",
+      "price": 53,
+      "originalPrice": null,
+      "color": "BLUE",
+      "brandName": "Rebellious Fashion",
+      "imageUrl": "images.asos-media.com/products/rebellious-fashion-double-breasted-blazer-in-light-blue-part-of-a-set/203077612-1-blue",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203262676,
+      "name": "Unique21 belted corset satin blazer in black - part of a set",
+      "price": 83,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "UNIQUE21",
+      "imageUrl": "images.asos-media.com/products/unique21-belted-corset-satin-blazer-in-black-part-of-a-set/203262676-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203262886,
+      "name": "Unique21 belted corset satin blazer in bright green - part of a set",
+      "price": 83,
+      "originalPrice": null,
+      "color": "Bright Green",
+      "brandName": "UNIQUE21",
+      "imageUrl": "images.asos-media.com/products/unique21-belted-corset-satin-blazer-in-bright-green-part-of-a-set/203262886-1-brightgreen",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203188154,
+      "name": "Waven tailored denim jacket in green - part of a set",
+      "price": 63,
+      "originalPrice": null,
+      "color": "Green",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-tailored-denim-jacket-in-green-part-of-a-set/203188154-1-green",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203077645,
+      "name": "Rebellious Fashion tailored blazer in cyan blue - part of a set",
+      "price": 50,
+      "originalPrice": null,
+      "color": "BLUE",
+      "brandName": "Rebellious Fashion",
+      "imageUrl": "images.asos-media.com/products/rebellious-fashion-tailored-blazer-in-cyan-blue-part-of-a-set/203077645-1-blue",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203262720,
+      "name": "Unique21 cropped blazer in wine - part of a set",
+      "price": 53,
+      "originalPrice": null,
+      "color": "Wine",
+      "brandName": "UNIQUE21",
+      "imageUrl": "images.asos-media.com/products/unique21-cropped-blazer-in-wine-part-of-a-set/203262720-1-wine",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203583479,
+      "name": "Unique21 Tall longline blazer in gray - part of a set",
+      "price": 69,
+      "originalPrice": null,
+      "color": "Gray",
+      "brandName": "Unique21 Tall",
+      "imageUrl": "images.asos-media.com/products/unique21-tall-longline-blazer-in-gray-part-of-a-set/203583479-1-grey",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203583656,
+      "name": "Unique21 Petite longline blazer in gray - part of a set",
+      "price": 69,
+      "originalPrice": null,
+      "color": "Gray",
+      "brandName": "Unique21 Petite",
+      "imageUrl": "images.asos-media.com/products/unique21-petite-longline-blazer-in-gray-part-of-a-set/203583656-1-grey",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203553796,
+      "name": "Bolongaro Trevor shearling trim classic leather aviator jacket in black",
+      "price": 322,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Bolongaro Trevor",
+      "imageUrl": "images.asos-media.com/products/bolongaro-trevor-shearling-trim-classic-leather-aviator-jacket-in-black/203553796-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203583549,
+      "name": "Unique21 Hero Plus oversized dad blazer in beige - part of a set",
+      "price": 63,
+      "originalPrice": null,
+      "color": "Beige",
+      "brandName": "UNIQUE21 Hero",
+      "imageUrl": "images.asos-media.com/products/unique21-hero-plus-oversized-dad-blazer-in-beige-part-of-a-set/203583549-1-beige",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203583657,
+      "name": "Unique21 Hero Plus oversized dad blazer in black - part of a set",
+      "price": 63,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "UNIQUE21 Hero",
+      "imageUrl": "images.asos-media.com/products/unique21-hero-plus-oversized-dad-blazer-in-black-part-of-a-set/203583657-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203583675,
+      "name": "Unique21 Hero Plus longline blazer in gray - part of a set",
+      "price": 69,
+      "originalPrice": null,
+      "color": "Gray",
+      "brandName": "UNIQUE21 Hero",
+      "imageUrl": "images.asos-media.com/products/unique21-hero-plus-longline-blazer-in-gray-part-of-a-set/203583675-1-grey",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203262837,
+      "name": "Unique21 cropped blazer in blue - part of a set",
+      "price": 53,
+      "originalPrice": null,
+      "color": "Blue",
+      "brandName": "UNIQUE21",
+      "imageUrl": "images.asos-media.com/products/unique21-cropped-blazer-in-blue-part-of-a-set/203262837-1-blue",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203041221,
+      "name": "Jayley faux fur patchwork midi coat in leopard cream and black",
+      "price": 248,
+      "originalPrice": null,
+      "color": "Black and white",
+      "brandName": "Jayley",
+      "imageUrl": "images.asos-media.com/products/jayley-faux-fur-patchwork-midi-coat-in-leopard-cream-and-black/203041221-1-blackandwhite",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203914510,
+      "name": "Heartbreak tie waist blazer in brown check - part of a set",
+      "price": 56,
+      "originalPrice": null,
+      "color": "BROWN",
+      "brandName": "Heartbreak",
+      "imageUrl": "images.asos-media.com/products/heartbreak-tie-waist-blazer-in-brown-check-part-of-a-set/203914510-1-brown",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 202707995,
+      "name": "Violet Romance Tall quilted vest in stone",
+      "price": 42,
+      "originalPrice": null,
+      "color": "STONE",
+      "brandName": "Violet Romance Tall",
+      "imageUrl": "images.asos-media.com/products/violet-romance-tall-quilted-vest-in-stone/202707995-1-stone",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203694486,
+      "name": "Violet Romance Petite vinyl jacket with faux fur trims in black",
+      "price": 108,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Violet Romance Petite",
+      "imageUrl": "images.asos-media.com/products/violet-romance-petite-vinyl-jacket-with-faux-fur-trims-in-black/203694486-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203976204,
+      "name": "Liquorish Ski base layer zip up top in abstract multi color print",
+      "price": 73,
+      "originalPrice": null,
+      "color": "Multicolor",
+      "brandName": "Liquorish",
+      "imageUrl": "images.asos-media.com/products/liquorish-ski-base-layer-zip-up-top-in-abstract-multi-color-print/203976204-1-multicolour",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203976220,
+      "name": "Liquorish Ski waterproof jacket in abstract multi color print",
+      "price": 286,
+      "originalPrice": null,
+      "color": "Multicolor",
+      "brandName": "Liquorish",
+      "imageUrl": "images.asos-media.com/products/liquorish-ski-waterproof-jacket-in-abstract-multi-color-print/203976220-1-multicolour",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 204132892,
+      "name": "Urbancode real leather biker jacket in black",
+      "price": 163,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-real-leather-biker-jacket-in-black/204132892-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 204132908,
+      "name": "Urbancode real leather biker jacket with belt in black",
+      "price": 163,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-real-leather-biker-jacket-with-belt-in-black/204132908-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 202752060,
+      "name": "Brave Soul Tall Denmark maxi padded vest in chocolate brown",
+      "price": 57,
+      "originalPrice": null,
+      "color": "CHOCOLATE BROWN",
+      "brandName": "Brave Soul Tall",
+      "imageUrl": "images.asos-media.com/products/brave-soul-tall-denmark-maxi-padded-vest-in-chocolate-brown/202752060-1-chocolatebrown",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 202752295,
+      "name": "Brave Soul Petite denmark maxi padded vest in black",
+      "price": 57,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Brave Soul Petite",
+      "imageUrl": "images.asos-media.com/products/brave-soul-petite-denmark-maxi-padded-vest-in-black/202752295-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 200973625,
+      "name": "Mango linen slouchy blazer in cream",
       "price": 61,
       "originalPrice": null,
-      "colour": "Sand",
-      "brandName": "Original Penguin",
-      "imageUrl": "images.asos-media.com/products/original-penguin-canvas-mix-casual-boat-shoes-in-sand/203840070-1-sand"
+      "color": "CREAM",
+      "brandName": "Mango",
+      "imageUrl": "images.asos-media.com/products/mango-linen-slouchy-blazer-in-cream/200973625-1-cream",
+      "category": "Jackets & Coats"
     },
     {
-      "id": 203888559,
-      "name": "adidas Originals Adilette 22 slides in beige",
-      "price": 55,
+      "id": 203928541,
+      "name": "New Look faux leather blazer in black",
+      "price": 60,
+      "originalPrice": 85.08,
+      "color": "Black",
+      "brandName": "New Look",
+      "imageUrl": "images.asos-media.com/products/new-look-faux-leather-blazer-in-black/203928541-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203976244,
+      "name": "Liquorish Ski waterproof jacket in pink abstract print",
+      "price": 286,
       "originalPrice": null,
-      "colour": "BEIGE",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-originals-adilette-22-slides-in-beige/203888559-1-beige"
+      "color": "Pink print",
+      "brandName": "Liquorish",
+      "imageUrl": "images.asos-media.com/products/liquorish-ski-waterproof-jacket-in-pink-abstract-print/203976244-1-pinkprint",
+      "category": "Jackets & Coats"
     },
     {
-      "id": 203888994,
-      "name": "adidas Originals Forum 84 Low sneakers in pink and off-white",
-      "price": 120,
+      "id": 203914661,
+      "name": "Heartbreak structured PU cropped blazer top in black",
+      "price": 56,
       "originalPrice": null,
-      "colour": "PINK",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-originals-forum-84-low-sneakers-in-pink-and-off-white/203888994-1-pink"
+      "color": "Black",
+      "brandName": "Heartbreak",
+      "imageUrl": "images.asos-media.com/products/heartbreak-structured-pu-cropped-blazer-top-in-black/203914661-1-black",
+      "category": "Jackets & Coats"
     },
     {
-      "id": 203987238,
-      "name": "ASOS DESIGN lace up sneakers in tan faux leather",
-      "price": 37,
+      "id": 202462624,
+      "name": "Miss Selfridge tie waist denim shacket in blue",
+      "price": 45,
       "originalPrice": null,
-      "colour": "TAN",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-lace-up-sneakers-in-tan-faux-leather/203987238-1-tan"
+      "color": "Blue",
+      "brandName": "Miss Selfridge",
+      "imageUrl": "images.asos-media.com/products/miss-selfridge-tie-waist-denim-shacket-in-blue/202462624-1-blue",
+      "category": "Jackets & Coats"
     },
     {
-      "id": 204029244,
-      "name": "Nike Air Force 1 '07 LV8 sneakers in stone",
-      "price": 130,
+      "id": 202706726,
+      "name": "Violet Romance quilted vest in stone",
+      "price": 43,
       "originalPrice": null,
-      "colour": "STONE",
-      "brandName": "Nike",
-      "imageUrl": "images.asos-media.com/products/nike-air-force-1-07-lv8-sneakers-in-stone/204029244-1-stone"
+      "color": "STONE",
+      "brandName": "VIOLET ROMANCE",
+      "imageUrl": "images.asos-media.com/products/violet-romance-quilted-vest-in-stone/202706726-1-stone",
+      "category": "Jackets & Coats"
     },
     {
-      "id": 204080980,
-      "name": "Public Desire Man Kylo padded knot strap slides in hot pink",
+      "id": 203187929,
+      "name": "Waven oversized shacket in blue",
+      "price": 47,
+      "originalPrice": null,
+      "color": "Blue",
+      "brandName": "Waven",
+      "imageUrl": "images.asos-media.com/products/waven-oversized-shacket-in-blue/203187929-1-blue",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203523766,
+      "name": "Heartbreak oversized dad blazer in green",
+      "price": 53,
+      "originalPrice": null,
+      "color": "GREEN",
+      "brandName": "Heartbreak",
+      "imageUrl": "images.asos-media.com/products/heartbreak-oversized-dad-blazer-in-green/203523766-1-green",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203553758,
+      "name": "Bolongaro Trevor shearling collar classic leather moto jacket in black",
+      "price": 248,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Bolongaro Trevor",
+      "imageUrl": "images.asos-media.com/products/bolongaro-trevor-shearling-collar-classic-leather-moto-jacket-in-black/203553758-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203339517,
+      "name": "Violet Romance hi-shine faux leather jacket with contrast stitching",
+      "price": 35,
+      "originalPrice": 63,
+      "color": "Black",
+      "brandName": "VIOLET ROMANCE",
+      "imageUrl": "images.asos-media.com/products/violet-romance-hi-shine-faux-leather-jacket-with-contrast-stitching/203339517-1-black",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203351689,
+      "name": "Lola May cropped blazer in teal - part of a set",
+      "price": 43,
+      "originalPrice": null,
+      "color": "TEAL",
+      "brandName": "Lola May",
+      "imageUrl": "images.asos-media.com/products/lola-may-cropped-blazer-in-teal-part-of-a-set/203351689-1-teal",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203478375,
+      "name": "Threadbare Petite Ski vest in pearlescent pink",
+      "price": 73,
+      "originalPrice": null,
+      "color": "PINK",
+      "brandName": "Threadbare Fitness Petite",
+      "imageUrl": "images.asos-media.com/products/threadbare-petite-ski-vest-in-pearlescent-pink/203478375-1-pink",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 203478858,
+      "name": "Threadbare Petite Ski belted jumpsuit in pastel pink",
+      "price": 86,
+      "originalPrice": null,
+      "color": "Pink/ white",
+      "brandName": "Threadbare Fitness Petite",
+      "imageUrl": "images.asos-media.com/products/threadbare-petite-ski-belted-jumpsuit-in-pastel-pink/203478858-1-pinkwhite",
+      "category": "Jackets & Coats"
+    },
+    {
+      "id": 22933070,
+      "name": "Steve Madden multi bag tote with coin wallet and cross body in black",
+      "price": 80,
+      "originalPrice": null,
+      "color": "Bk1 - black",
+      "brandName": "Steve Madden",
+      "imageUrl": "images.asos-media.com/products/steve-madden-multi-bag-tote-with-coin-wallet-and-cross-body-in-black/22933070-1-bk1black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204123088,
+      "name": "SVNX mini cross body bag in straw and dark brown",
+      "price": 44,
+      "originalPrice": null,
+      "color": "NATURAL/DARK OAK",
+      "brandName": "SVNX",
+      "imageUrl": "images.asos-media.com/products/svnx-mini-cross-body-bag-in-straw-and-dark-brown/204123088-1-naturaldarkoak",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186529,
+      "name": "Claudia Canova flap top backpack with tonal chain detail in black",
+      "price": 44,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-flap-top-backpack-with-tonal-chain-detail-in-black/204186529-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186534,
+      "name": "Claudia Canova mini cross body bag in white",
+      "price": 34,
+      "originalPrice": null,
+      "color": "WHITE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-mini-cross-body-bag-in-white/204186534-1-white",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186542,
+      "name": "Claudia Canova curved flap top backpack in black",
+      "price": 42,
+      "originalPrice": null,
+      "color": "black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-curved-flap-top-backpack-in-black/204186542-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186543,
+      "name": "Claudia Canova circle cross body bag with rope detail handle in taupe",
       "price": 35,
       "originalPrice": null,
-      "colour": "Hot pink",
-      "brandName": "Public Desire",
-      "imageUrl": "images.asos-media.com/products/public-desire-man-kylo-padded-knot-strap-slides-in-hot-pink/204080980-1-hotpink"
+      "color": "Taupe",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-circle-cross-body-bag-with-rope-detail-handle-in-taupe/204186543-1-taupe",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204081088,
-      "name": "Public Desire Man Oakley quilted sliders in turquoise",
-      "price": 35,
-      "originalPrice": null,
-      "colour": "TURQUOISE",
-      "brandName": "Public Desire",
-      "imageUrl": "images.asos-media.com/products/public-desire-man-oakley-quilted-sliders-in-turquoise/204081088-1-turquioise"
-    },
-    {
-      "id": 204081105,
-      "name": "Public Desire Man Kylo padded knot strap sliders in beige",
-      "price": 35,
-      "originalPrice": null,
-      "colour": "BEIGE",
-      "brandName": "Public Desire",
-      "imageUrl": "images.asos-media.com/products/public-desire-man-kylo-padded-knot-strap-sliders-in-beige/204081105-1-beige"
-    },
-    {
-      "id": 204427210,
-      "name": "Vans Old Skool bolt sneakers in white and black",
-      "price": 75,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Vans",
-      "imageUrl": "images.asos-media.com/products/vans-old-skool-bolt-sneakers-in-white-and-black/204427210-1-white"
-    },
-    {
-      "id": 204512053,
-      "name": "The North Face Base Camp III slides in stone",
+      "id": 204186553,
+      "name": "Claudia Canova cross body bag in black",
       "price": 39,
       "originalPrice": null,
-      "colour": "NEUTRAL",
-      "brandName": "The North Face",
-      "imageUrl": "images.asos-media.com/products/the-north-face-base-camp-iii-slides-in-stone/204512053-1-neutral"
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-cross-body-bag-in-black/204186553-1-black",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204534909,
-      "name": "New Balance 530 sneakers in light gray",
-      "price": 174,
+      "id": 204186567,
+      "name": "Claudia Canova soft slouchy tote bag in taupe",
+      "price": 44,
       "originalPrice": null,
-      "colour": "Gray",
-      "brandName": "New Balance",
-      "imageUrl": "images.asos-media.com/products/new-balance-530-sneakers-in-light-gray/204534909-1-grey"
+      "color": "Taupe",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-soft-slouchy-tote-bag-in-taupe/204186567-1-taupe",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204535017,
-      "name": "New Balance 57/40 sneakers in cream",
-      "price": 104.99,
+      "id": 204186587,
+      "name": "Claudia Canova boxy grab bag with bungee rope detail handle in stone",
+      "price": 37,
       "originalPrice": null,
-      "colour": "Cream",
-      "brandName": "New Balance",
-      "imageUrl": "images.asos-media.com/products/new-balance-57-40-sneakers-in-cream/204535017-1-cream"
+      "color": "STONE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-boxy-grab-bag-with-bungee-rope-detail-handle-in-stone/204186587-1-stone",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204130821,
-      "name": "Consigned color block fanny pack in gray and green",
-      "price": 28,
-      "originalPrice": null,
-      "colour": "Gray/green",
-      "brandName": "Consigned",
-      "imageUrl": "images.asos-media.com/products/consigned-color-block-fanny-pack-in-gray-and-green/204130821-1-greygreen"
-    },
-    {
-      "id": 204130972,
-      "name": "Fenton classic wallet in black",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Fenton",
-      "imageUrl": "images.asos-media.com/products/fenton-classic-wallet-in-black/204130972-1-black"
-    },
-    {
-      "id": 204131043,
-      "name": "Consigned backpack tote bag in khaki",
-      "price": 46,
-      "originalPrice": null,
-      "colour": "Khaki",
-      "brandName": "Consigned",
-      "imageUrl": "images.asos-media.com/products/consigned-backpack-tote-bag-in-khaki/204131043-1-khaki"
-    },
-    {
-      "id": 204131055,
-      "name": "Consigned 5 panel logo cap in black",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Consigned",
-      "imageUrl": "images.asos-media.com/products/consigned-5-panel-logo-cap-in-black/204131055-1-black"
-    },
-    {
-      "id": 204131058,
-      "name": "Consigned color block sling backpack in sand and khaki",
+      "id": 204186588,
+      "name": "Claudia Canova cross body grab bag with chunky chain in black",
       "price": 32,
       "originalPrice": null,
-      "colour": "SAND/KHAKI",
-      "brandName": "Consigned",
-      "imageUrl": "images.asos-media.com/products/consigned-color-block-sling-backpack-in-sand-and-khaki/204131058-1-sandkhaki"
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-cross-body-grab-bag-with-chunky-chain-in-black/204186588-1-black",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204131125,
-      "name": "Consigned logo fanny pack in black",
-      "price": 26,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Consigned",
-      "imageUrl": "images.asos-media.com/products/consigned-logo-fanny-pack-in-black/204131125-1-black"
-    },
-    {
-      "id": 204230425,
-      "name": "ASOS DESIGN wrap around racer sunglasses with mirror lens in black",
-      "price": 21,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wrap-around-racer-sunglasses-with-mirror-lens-in-black/204230425-1-black"
-    },
-    {
-      "id": 204230473,
-      "name": "ASOS DESIGN wrap around racer sunglasses with mirror lens in blue",
-      "price": 24,
-      "originalPrice": null,
-      "colour": "MID BLUE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wrap-around-racer-sunglasses-with-mirror-lens-in-blue/204230473-1-midblue"
-    },
-    {
-      "id": 204230490,
-      "name": "ASOS DESIGN Wrap around y2k rimless sunglasses with graphic arm detail in black",
-      "price": 27,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-wrap-around-y2k-rimless-sunglasses-with-graphic-arm-detail-in-black/204230490-1-black"
-    },
-    {
-      "id": 204258107,
-      "name": "ASOS DESIGN Smiley Collab soft baseball cap with rubberized logo in distressed black",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-soft-baseball-cap-with-rubberized-logo-in-distressed-black/204258107-1-black"
-    },
-    {
-      "id": 204281716,
-      "name": "ASOS DESIGN Smiley Collab crossbody fanny pack with all over print in black",
-      "price": 29,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-crossbody-fanny-pack-with-all-over-print-in-black/204281716-1-black"
-    },
-    {
-      "id": 204281858,
-      "name": "ASOS Design Smiley Collab trucker cap with logo and contrast yellow peak in white",
-      "price": 26,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-trucker-cap-with-logo-and-contrast-yellow-peak-in-white/204281858-1-white"
-    },
-    {
-      "id": 204281859,
-      "name": "ASOS DESIGN Smiley Collab trucker cap with metallic logo in black",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-trucker-cap-with-metallic-logo-in-black/204281859-1-black"
-    },
-    {
-      "id": 204288020,
-      "name": "adidas Originals Sports 3.0 fanny pack in olive green and beige",
+      "id": 204186603,
+      "name": "Claudia Canova bucket bag with tonal chain detail in black",
       "price": 35,
       "originalPrice": null,
-      "colour": "Khaki",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-originals-sports-30-fanny-pack-in-olive-green-and-beige/204288020-1-khaki"
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-bucket-bag-with-tonal-chain-detail-in-black/204186603-1-black",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204288038,
-      "name": "adidas Training Football shoe bag in black",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "adidas performance",
-      "imageUrl": "images.asos-media.com/products/adidas-training-football-shoe-bag-in-black/204288038-1-black"
-    },
-    {
-      "id": 204288191,
-      "name": "adidas Originals Utility Festival 3.0 crossbody bag in black",
-      "price": 28,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "adidas Originals",
-      "imageUrl": "images.asos-media.com/products/adidas-originals-utility-festival-30-crossbody-bag-in-black/204288191-1-black"
-    },
-    {
-      "id": 204339492,
-      "name": "ASOS DESIGN Smiley Collab waterproof stainless steel necklace with smiley pendant",
-      "price": 30,
-      "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-waterproof-stainless-steel-necklace-with-smiley-pendant/204339492-1-silver"
-    },
-    {
-      "id": 204339525,
-      "name": "COLLUSION Unisex logo bucket hat in black",
-      "price": 27.9,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Collusion",
-      "imageUrl": "images.asos-media.com/products/collusion-unisex-logo-bucket-hat-in-black/204339525-1-black"
-    },
-    {
-      "id": 204562730,
-      "name": "ASOS DESIGN chain bracelet with texture in 14k gold plate",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "GOLD",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-chain-bracelet-with-texture-in-14k-gold-plate/204562730-1-gold"
-    },
-    {
-      "id": 201840523,
-      "name": "ASOS DESIGN smile rimless glasses in blue",
-      "price": 24,
-      "originalPrice": null,
-      "colour": "MID BLUE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smile-rimless-glasses-in-blue/201840523-1-midblue"
-    },
-    {
-      "id": 202223582,
-      "name": "Farah minimal logo watch in tan",
-      "price": 50,
-      "originalPrice": null,
-      "colour": "Tan",
-      "brandName": "Farah",
-      "imageUrl": "images.asos-media.com/products/farah-minimal-logo-watch-in-tan/202223582-1-tan"
-    },
-    {
-      "id": 202223584,
-      "name": "Farah stainless steel strap watch in silver",
-      "price": 50,
-      "originalPrice": null,
-      "colour": "Silver",
-      "brandName": "Farah",
-      "imageUrl": "images.asos-media.com/products/farah-stainless-steel-strap-watch-in-silver/202223584-1-silver"
-    },
-    {
-      "id": 202223593,
-      "name": "Farah chunky bracelet watch in silver",
-      "price": 50,
-      "originalPrice": null,
-      "colour": "Silver",
-      "brandName": "Farah",
-      "imageUrl": "images.asos-media.com/products/farah-chunky-bracelet-watch-in-silver/202223593-1-silver"
-    },
-    {
-      "id": 202375397,
-      "name": "Jeepers Peepers oval metal sunglasses in pink",
-      "price": 35,
-      "originalPrice": null,
-      "colour": "PINK",
-      "brandName": "Jeepers Peepers",
-      "imageUrl": "images.asos-media.com/products/jeepers-peepers-oval-metal-sunglasses-in-pink/202375397-1-pink"
-    },
-    {
-      "id": 202831744,
-      "name": "AIRE continuum visor aviator sunglasses in cookie tortoiseshell",
-      "price": 52,
-      "originalPrice": null,
-      "colour": "BROWN",
-      "brandName": "Aire",
-      "imageUrl": "images.asos-media.com/products/aire-continuum-visor-aviator-sunglasses-in-cookie-tortoiseshell/202831744-1-brown"
-    },
-    {
-      "id": 202831758,
-      "name": "AIRE continuum visor aviator sunglasses in black",
-      "price": 52,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Aire",
-      "imageUrl": "images.asos-media.com/products/aire-continuum-visor-aviator-sunglasses-in-black/202831758-1-black"
-    },
-    {
-      "id": 203852993,
-      "name": "ASOS DESIGN mini barrel bag in blue",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "MID BLUE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-mini-barrel-bag-in-blue/203852993-1-midblue"
-    },
-    {
-      "id": 204243811,
-      "name": "Reclaimed Vintage unisex branded cap in washed black",
-      "price": 22.9,
-      "originalPrice": null,
-      "colour": "Black",
-      "brandName": "Reclaimed Vintage",
-      "imageUrl": "images.asos-media.com/products/reclaimed-vintage-unisex-branded-cap-in-washed-black/204243811-1-black"
-    },
-    {
-      "id": 204281864,
-      "name": "Crooked Tongues x Felix soft baseball cap with contrast peak in ecru and red",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "RED",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/crooked-tongues-x-felix-soft-baseball-cap-with-contrast-peak-in-ecru-and-red/204281864-1-red"
-    },
-    {
-      "id": 204281867,
-      "name": "Crooked Tongues x Felix trucker cap with patch in distressed purple",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "PURPLE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/crooked-tongues-x-felix-trucker-cap-with-patch-in-distressed-purple/204281867-1-purple"
-    },
-    {
-      "id": 204339491,
-      "name": "ASOS DESIGN Smiley Collab faux pearl beaded phone charm with smiley beads",
-      "price": 22,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-faux-pearl-beaded-phone-charm-with-smiley-beads/204339491-1-white"
-    },
-    {
-      "id": 204339499,
-      "name": "ASOS DESIGN Smiley Collab short 6mm faux pearl necklace with smiley beads",
-      "price": 26,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-short-6mm-faux-pearl-necklace-with-smiley-beads/204339499-1-white"
-    },
-    {
-      "id": 204339506,
-      "name": "ASOS DESIGN Smiley Collab waterproof stainless steel band ring with smiley faces",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-waterproof-stainless-steel-band-ring-with-smiley-faces/204339506-1-silver"
-    },
-    {
-      "id": 204396513,
-      "name": "ASOS DESIGN waterproof stainless steel ring with yin yang design in burnished silver tone",
-      "price": 25,
-      "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-waterproof-stainless-steel-ring-with-yin-yang-design-in-burnished-silver-tone/204396513-1-silver"
-    },
-    {
-      "id": 204562724,
-      "name": "ASOS DESIGN 3 pack sculpted rings in silver tone",
-      "price": 16,
-      "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-3-pack-sculpted-rings-in-silver-tone/204562724-1-silver"
-    },
-    {
-      "id": 203853011,
-      "name": "ASOS DESIGN faux leather crossbody bag in silver",
-      "price": 30,
-      "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-faux-leather-crossbody-bag-in-silver/203853011-1-silver"
-    },
-    {
-      "id": 203941142,
-      "name": "ASOS DESIGN faux leather belt with skull crystals in white",
-      "price": 27,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-faux-leather-belt-with-skull-crystals-in-white/203941142-1-white"
-    },
-    {
-      "id": 204154992,
-      "name": "AIRE velocity round sunglasses with green lens in gold",
-      "price": 52,
-      "originalPrice": null,
-      "colour": "Gold",
-      "brandName": "Aire",
-      "imageUrl": "images.asos-media.com/products/aire-velocity-round-sunglasses-with-green-lens-in-gold/204154992-1-gold"
-    },
-    {
-      "id": 204226429,
-      "name": "Public Desire oversized rectangle plastic pearl embellished sunglasses in white with black lens",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "WHITE",
-      "brandName": "Public Desire",
-      "imageUrl": "images.asos-media.com/products/public-desire-oversized-rectangle-plastic-pearl-embellished-sunglasses-in-white-with-black-lens/204226429-1-white"
-    },
-    {
-      "id": 204226450,
-      "name": "Public Desire cat eye sunglasses with pearl embellishment in pale pink",
-      "price": 23,
-      "originalPrice": null,
-      "colour": "PINK",
-      "brandName": "Public Desire",
-      "imageUrl": "images.asos-media.com/products/public-desire-cat-eye-sunglasses-with-pearl-embellishment-in-pale-pink/204226450-1-pink"
-    },
-    {
-      "id": 204241677,
-      "name": "ASOS DESIGN soft crossbody bag with stripe webbing in blue and black",
+      "id": 204186642,
+      "name": "Claudia Canova rectangular flap top cross body bag with rope detail handle in tan",
       "price": 33,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-soft-crossbody-bag-with-stripe-webbing-in-blue-and-black/204241677-1-black"
+      "color": "Tan",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-rectangular-flap-top-cross-body-bag-with-rope-detail-handle-in-tan/204186642-1-tan",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204258094,
-      "name": "ASOS Design Smiley Collab reversable safari bucket hat in multicolor",
+      "id": 204186653,
+      "name": "Claudia Canova bucket bag with tonal chain detail in tan",
+      "price": 35,
+      "originalPrice": null,
+      "color": "TAN",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-bucket-bag-with-tonal-chain-detail-in-tan/204186653-1-tan",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186659,
+      "name": "Claudia Canova circle cross-body bag with rope detail handle in white",
+      "price": 35,
+      "originalPrice": null,
+      "color": "WHITE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-circle-cross-body-bag-with-rope-detail-handle-in-white/204186659-1-white",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186666,
+      "name": "Claudia Canova baguette shoulder bag with flap top detail in mint",
+      "price": 31,
+      "originalPrice": null,
+      "color": "MINT",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-baguette-shoulder-bag-with-flap-top-detail-in-mint/204186666-1-mint",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186676,
+      "name": "Claudia Canova angular flap top cross-body bag with rope handle detail in stone",
+      "price": 33,
+      "originalPrice": null,
+      "color": "STONE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-angular-flap-top-cross-body-bag-with-rope-handle-detail-in-stone/204186676-1-stone",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186532,
+      "name": "Claudia Canova soft croissant cross body bag in black",
+      "price": 28,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-soft-croissant-cross-body-bag-in-black/204186532-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186535,
+      "name": "Claudia Canova crescent shape grab bag with cross-body strap in pink",
+      "price": 28,
+      "originalPrice": null,
+      "color": "PINK",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-crescent-shape-grab-bag-with-cross-body-strap-in-pink/204186535-1-pink",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186557,
+      "name": "Claudia Canova crescent shape purse with cross body strap in black",
+      "price": 30,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-crescent-shape-purse-with-cross-body-strap-in-black/204186557-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186559,
+      "name": "Claudia Canova mini flap top shoulder bag with contrast binding in black",
+      "price": 26,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-mini-flap-top-shoulder-bag-with-contrast-binding-in-black/204186559-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186609,
+      "name": "Claudia Canova baguette shoulder bag with contrast binding in white",
+      "price": 28,
+      "originalPrice": null,
+      "color": "WHITE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-baguette-shoulder-bag-with-contrast-binding-in-white/204186609-1-white",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186618,
+      "name": "Claudia Canova camera bag with rope detail handle and cross-body strap in black",
+      "price": 33,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-camera-bag-with-rope-detail-handle-and-cross-body-strap-in-black/204186618-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186633,
+      "name": "Claudia Canova angular flap top cross body bag with rope handle detail in black",
+      "price": 33,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-angular-flap-top-cross-body-bag-with-rope-handle-detail-in-black/204186633-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186650,
+      "name": "Claudia Canova tote bag with leopard print detail and cross-body strap in black",
+      "price": 44,
+      "originalPrice": null,
+      "color": "Black/ leopard",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-tote-bag-with-leopard-print-detail-and-cross-body-strap-in-black/204186650-1-blackleopard",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186662,
+      "name": "Claudia Canova baguette shoulder bag with contrast binding in black",
+      "price": 28,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-baguette-shoulder-bag-with-contrast-binding-in-black/204186662-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 203551174,
+      "name": "Bolongaro Trevor studded leather fanny pack in black",
+      "price": 58,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Bolongaro Trevor",
+      "imageUrl": "images.asos-media.com/products/bolongaro-trevor-studded-leather-fanny-pack-in-black/203551174-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186533,
+      "name": "Claudia Canova mini grab bag with leopard print detail and cross-body strap in black",
+      "price": 30,
+      "originalPrice": null,
+      "color": "Black/ leopard",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-mini-grab-bag-with-leopard-print-detail-and-cross-body-strap-in-black/204186533-1-blackleopard",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186544,
+      "name": "Claudia Canova curved bottom grab bag with cross body strap in black",
+      "price": 31,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-curved-bottom-grab-bag-with-cross-body-strap-in-black/204186544-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186564,
+      "name": "Claudia Canova camera bag with rope detail handle and cross body strap in tan",
+      "price": 33,
+      "originalPrice": null,
+      "color": "Tan",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-camera-bag-with-rope-detail-handle-and-cross-body-strap-in-tan/204186564-1-tan",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186582,
+      "name": "Claudia Canova zip top card holder in black",
+      "price": 14,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-zip-top-card-holder-in-black/204186582-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186600,
+      "name": "Claudia Canova camera box bag with rope detail handle and cross-body strap in stone",
+      "price": 33,
+      "originalPrice": null,
+      "color": "STONE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-camera-box-bag-with-rope-detail-handle-and-cross-body-strap-in-stone/204186600-1-stone",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186601,
+      "name": "Claudia Canova soft croissant cross body bag in taupe",
+      "price": 28,
+      "originalPrice": null,
+      "color": "Taupe",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-soft-croissant-cross-body-bag-in-taupe/204186601-1-taupe",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186607,
+      "name": "Claudia Canova buckle detail shoulder bag with rope handle detail in black",
+      "price": 35,
+      "originalPrice": null,
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-buckle-detail-shoulder-bag-with-rope-handle-detail-in-black/204186607-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186615,
+      "name": "Claudia Canova utility strap shoulder bag with tonal chain detail in olive",
+      "price": 35,
+      "originalPrice": null,
+      "color": "Olive",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-utility-strap-shoulder-bag-with-tonal-chain-detail-in-olive/204186615-1-olive",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186622,
+      "name": "Claudia Canova cross body bottle holder in black",
       "price": 25,
       "originalPrice": null,
-      "colour": "Multi",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-reversable-safari-bucket-hat-in-multicolor/204258094-1-multi"
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-cross-body-bottle-holder-in-black/204186622-1-black",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204258122,
-      "name": "ASOS DESIGN slim square aviator sunglasses with navy lens in gunmetal",
-      "price": 22,
+      "id": 204186631,
+      "name": "Claudia Canova large curved grab bag with tonal chain detail in tan",
+      "price": 44,
       "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-slim-square-aviator-sunglasses-with-navy-lens-in-gunmetal/204258122-1-silver"
+      "color": "TAN",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-large-curved-grab-bag-with-tonal-chain-detail-in-tan/204186631-1-tan",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204281719,
-      "name": "ASOS Design Smiley Collab faux leather belt with warped buckle in black",
-      "price": 25,
+      "id": 204186639,
+      "name": "Claudia Canova minimal baguette shoulder bag in sand",
+      "price": 26,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-smiley-collab-faux-leather-belt-with-warped-buckle-in-black/204281719-1-black"
+      "color": "Sand",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-minimal-baguette-shoulder-bag-in-sand/204186639-1-sand",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204396299,
-      "name": "ASOS DESIGN 3 pack waterproof stainless steel band ring set with eye and sun design in silver tone",
-      "price": 32,
+      "id": 204186657,
+      "name": "Claudia Canova flap top backpack with tonal chain detail in gray",
+      "price": 44,
       "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-3-pack-waterproof-stainless-steel-band-ring-set-with-eye-and-sun-design-in-silver-tone/204396299-1-silver"
+      "color": "Gray",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-flap-top-backpack-with-tonal-chain-detail-in-gray/204186657-1-grey",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204396488,
-      "name": "ASOS DESIGN waterproof stainless steel signet ring with skull in burnished silver",
-      "price": 25,
+      "id": 204186670,
+      "name": "Claudia Canova utility strap shoulder bag with tonal chain detail in black",
+      "price": 35,
       "originalPrice": null,
-      "colour": "SILVER",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-waterproof-stainless-steel-signet-ring-with-skull-in-burnished-silver/204396488-1-silver"
+      "color": "Black",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-utility-strap-shoulder-bag-with-tonal-chain-detail-in-black/204186670-1-black",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204562701,
-      "name": "ASOS DESIGN festival cord necklace with green swirl pendant in black",
-      "price": 12.5,
+      "id": 204186673,
+      "name": "Claudia Canova baguette shoulder bag with flap top detail in white",
+      "price": 31,
       "originalPrice": null,
-      "colour": "Black",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-festival-cord-necklace-with-green-swirl-pendant-in-black/204562701-1-black"
+      "color": "WHITE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-baguette-shoulder-bag-with-flap-top-detail-in-white/204186673-1-white",
+      "category": "Bags & Wallets"
     },
     {
-      "id": 204562781,
-      "name": "ASOS DESIGN corsage brooch in cream",
-      "price": 12.5,
+      "id": 204186552,
+      "name": "Claudia Canova double pocket tote bag in tan",
+      "price": 44,
       "originalPrice": null,
-      "colour": "CREAM",
-      "brandName": "ASOS DESIGN",
-      "imageUrl": "images.asos-media.com/products/asos-design-corsage-brooch-in-cream/204562781-1-cream"
+      "color": "TAN",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-double-pocket-tote-bag-in-tan/204186552-1-tan",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186580,
+      "name": "Claudia Canova curved shoulder bag with cross body strap in stone",
+      "price": 39,
+      "originalPrice": null,
+      "color": "STONE",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-curved-shoulder-bag-with-cross-body-strap-in-stone/204186580-1-stone",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186629,
+      "name": "Claudia Canova curved bottom grab bag with cross-body strap in mint",
+      "price": 31,
+      "originalPrice": null,
+      "color": "MINT",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-curved-bottom-grab-bag-with-cross-body-strap-in-mint/204186629-1-mint",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204186636,
+      "name": "Claudia Canova large box tote bag with cross-body strap in sand",
+      "price": 48,
+      "originalPrice": null,
+      "color": "Sand",
+      "brandName": "Claudia Canova",
+      "imageUrl": "images.asos-media.com/products/claudia-canova-large-box-tote-bag-with-cross-body-strap-in-sand/204186636-1-sand",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204329008,
+      "name": "Urbancode leather studded bi-fold card holder in black",
+      "price": 17.5,
+      "originalPrice": null,
+      "color": "black",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-leather-studded-bi-fold-card-holder-in-black/204329008-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204329011,
+      "name": "Urbancode suede croc detail card holder in tan",
+      "price": 17.5,
+      "originalPrice": null,
+      "color": "tan",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-suede-croc-detail-card-holder-in-tan/204329011-1-tan",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204329014,
+      "name": "Urbancode leather card holder in animal print",
+      "price": 17.5,
+      "originalPrice": null,
+      "color": "black",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-leather-card-holder-in-animal-print/204329014-1-black",
+      "category": "Bags & Wallets"
+    },
+    {
+      "id": 204329017,
+      "name": "Urbancode leather suede croc print crossbody bag in tan",
+      "price": 66,
+      "originalPrice": null,
+      "color": "Tan",
+      "brandName": "Urbancode",
+      "imageUrl": "images.asos-media.com/products/urbancode-leather-suede-croc-print-crossbody-bag-in-tan/204329017-1-tan",
+      "category": "Bags & Wallets"
     }
   ],
-  "categories": [
-    "Accessories",
-    "Chronoegraph",
-    "Diamond",
-    "Diving",
-    "Emerald",
-    "Gold",
-    "Jackets",
-    "Ladies",
-    "Mens",
-    "Platinum",
-    "Ruby",
-    "Shoes",
-    "T-shirts",
-    "Vintage",
-    "Women"
-  ],
+  "categories": ["Jeans", "Bags & Wallets", "Jackets & Coats", "Hoodies & Sweatshirts"],
   "brands": [
-    "Band",
-    "Bershka",
-    "Chanel",
-    "Emporio Armani",
-    "Gucci",
-    "H&M",
-    "Hammered",
-    "Hugo Boss",
-    "Lynn",
-    "Mesh",
-    "Oakley",
-    "OldNavy",
-    "Out of retirement",
-    "Tommy Hilfiger",
-    "Vendy",
-    "Vivienne Westwood"
+    "Levi's",
+    "Waven",
+    "FAE",
+    "Weekday",
+    "Only",
+    "ASOS DESIGN",
+    "Noisy May Curve",
+    "New Look",
+    "Collusion",
+    "Wrangler",
+    "Stradivarius",
+    "Threadbare",
+    "Threadbare Petite",
+    "Threadbare Curve",
+    "Threadbare Tall",
+    "Threadbare Fitness",
+    "Threadbare Fitness Tall",
+    "New Love Club",
+    "Threadbare Fitness Curve",
+    "Honour",
+    "Hounour Plus",
+    "Rebellious Fashion",
+    "Bolongaro Trevor",
+    "Don't Think Twice",
+    "Threadbare Plus Fitness",
+    "QED London Tall",
+    "UNIQUE21",
+    "Unique21 Tall",
+    "Unique21 Petite",
+    "UNIQUE21 Hero",
+    "Jayley",
+    "Heartbreak",
+    "Violet Romance Tall",
+    "Violet Romance Petite",
+    "Liquorish",
+    "Urbancode",
+    "Brave Soul Tall",
+    "Brave Soul Petite",
+    "Mango",
+    "Miss Selfridge",
+    "VIOLET ROMANCE",
+    "Lola May",
+    "Threadbare Fitness Petite",
+    "Steve Madden",
+    "SVNX",
+    "Claudia Canova"
   ],
   "homepage": {
     "products": [

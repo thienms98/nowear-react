@@ -1,8 +1,9 @@
-import { useReducer, createContext } from 'react';
+import { useState, useReducer, createContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Header, Footer } from './Layouts';
 import { HomePage, Collection } from './pages';
+import { Search } from './components/Search';
 
 export const CartContext = createContext();
 
@@ -20,11 +21,15 @@ export default function App() {
     }
   };
   const [cart, dispatch] = useReducer(cartReducer, initCart);
+  const [search, setSearch] = useState(false);
+
+  const toggleSearch = () => setSearch((last) => !last);
 
   return (
     <CartContext.Provider value={{ cart, dispatch }}>
       <div className="App">
-        <Header />
+        <Header toggle={toggleSearch} />
+        {search && <Search toggle={toggleSearch} />}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collection" element={<Collection />} />

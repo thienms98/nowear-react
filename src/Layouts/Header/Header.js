@@ -8,7 +8,7 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classNames.bind(styles);
 
-export default function Header() {
+export default function Header({ toggle }) {
   const { cart } = useContext(CartContext);
   const [newArrive, setNewArrive] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -67,7 +67,7 @@ export default function Header() {
             e.currentTarget.setAttribute('data-animation', 'out');
           }}
         >
-          <Link to={'#'}>Pages</Link>
+          <Link to={'/collection'}>Collections</Link>
         </div>
         <div
           className={cx('item')}
@@ -88,7 +88,7 @@ export default function Header() {
 
       <div className={cx('user')}>
         <div className={cx('item', 'login')}>LOGIN</div>
-        <div className={cx('item', 'search')}>
+        <div className={cx('item', 'search')} onClick={toggle}>
           <FontAwesomeIcon icon={faSearch} />
         </div>
         <div className={cx('item', 'favorite')}>

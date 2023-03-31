@@ -4,12 +4,19 @@
   flex-direction: row;
 }
 
+.main{
+  width: 75%;
+}
+.side{
+  width: 25%;
+}
 .products{
   max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1.25em;
 
   &>.item{
     margin-bottom: 1em;

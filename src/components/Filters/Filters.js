@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import FilterItem from './FilterItem';
 
 import classNames from 'classnames/bind';
 import styles from './Filters.module.scss';
@@ -41,7 +42,8 @@ export default function Filters() {
         <div className={cx('item')}>In stock({35})</div>
         <div className={cx('item')}>Out of stock({3})</div>
       </div> */}
-      <div className={cx('price-range')}>
+      <FilterItem title={'Vendors'}></FilterItem>
+      <FilterItem title={'Price range'}>
         <div className={cx('text')}>
           <label htmlFor="min">From</label>
           <input type="number" id="min" />
@@ -52,7 +54,7 @@ export default function Filters() {
           <div className={cx('button')} ref={minRef} onMouseMove={moveTheThumb}></div>
           <div className={cx('button')} ref={maxRef}></div>
         </div> */}
-      </div>
+      </FilterItem>
     </div>
   );
 }
