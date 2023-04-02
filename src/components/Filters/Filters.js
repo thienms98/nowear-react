@@ -5,26 +5,15 @@ import classNames from 'classnames/bind';
 import styles from './Filters.module.scss';
 const cx = classNames.bind(styles);
 
-export default function Filters() {
+export default function Filters({ updateFilter }) {
   const [priceRange, setPriceRange] = useState([0, null]);
-  const rangeRef = useRef(),
-    minRef = useRef(),
-    maxRef = useRef();
+  const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    // const rangeWidth = rangeRef.current.offsetWidth;
-  }, [priceRange]);
-
-  const moveTheThumb = (event) => {
-    console.log(event.keyCode);
-    // if (event.which === 1) console.log(event.pageX, event.pageY);
-    // console.log(event.target.offsetLeft);
-    // console.log(event.pageX);
-  };
-
-  const choosePosForTheThumb = (event) => {
-    console.log();
-  };
+    fetch('http://localhost:3600/brands')
+      .then((res) => res.json())
+      .then((brands) => setBrands(brands));
+  }, []);
 
   return (
     <div className={cx('wrapper')}>
@@ -42,7 +31,26 @@ export default function Filters() {
         <div className={cx('item')}>In stock({35})</div>
         <div className={cx('item')}>Out of stock({3})</div>
       </div> */}
-      <FilterItem title={'Vendors'}></FilterItem>
+      <FilterItem title={'Vendors'}>
+        <form className={cx('vendors')}>
+          {brands.map((brand, index) => {
+            return (
+              <div key={index}>
+                <input
+                  type="radio"
+                  name="vendor"
+                  value={brand}
+                  onChange={(e) => {
+                    const form = e.target.parentNode.parentNode;
+                    updateFilter({ brandName: form.vendor.value });
+                  }}
+                />
+                {brand}
+              </div>
+            );
+          })}
+        </form>
+      </FilterItem>
       <FilterItem title={'Price range'}>
         <div className={cx('text')}>
           <label htmlFor="min">From</label>

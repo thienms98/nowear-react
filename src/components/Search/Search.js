@@ -1,6 +1,4 @@
-import { useState, useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { useState, useRef, useEffect } from 'react';
 
 import classNames from 'classnames/bind';
 import styles from './Search.module.scss';
@@ -8,21 +6,28 @@ const cx = classNames.bind(styles);
 
 export default function Search({ toggle }) {
   const [text, setText] = useState('');
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(null);
   const searchRef = useRef();
 
-  const close = () => {
-    setVisible((visible) => !visible);
-    setTimeout(() => {
-      toggle();
-    }, 1000);
+  useEffect(() => {
+    setVisible(true);
+  }, []);
+
+  const close = (e) => {
+    const targetClasses = [...e.target.classList];
+    if ((targetClasses.includes(styles.wrapper) || targetClasses.includes(styles['close-btn'])) && visible) {
+      setVisible(false);
+      setTimeout(() => {
+        toggle(false);
+      }, 1000);
+    }
   };
 
   return (
     <div className={cx('wrapper', { appear: visible }, { disappear: !visible })} onClick={close}>
       <div className={cx('search-input')}>
         <div className={cx('close-btn')} onClick={close}>
-          <FontAwesomeIcon icon={faTimes} />
+          &times;
         </div>
         <div className={cx('title')}>What are you looking for</div>
         <div className={cx('input')}>

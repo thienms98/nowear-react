@@ -22,8 +22,12 @@ export default function App() {
   };
   const [cart, dispatch] = useReducer(cartReducer, initCart);
   const [search, setSearch] = useState(false);
-
-  const toggleSearch = () => setSearch((last) => !last);
+  console.log(search);
+  const toggleSearch = (bool) => {
+    console.log(bool);
+    if (!bool) setSearch((last) => !last);
+    else setSearch(bool);
+  };
 
   return (
     <CartContext.Provider value={{ cart, dispatch }}>

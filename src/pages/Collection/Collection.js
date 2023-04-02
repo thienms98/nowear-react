@@ -9,28 +9,30 @@ import classNames from 'classnames/bind';
 import styles from './Collection.module.scss';
 const cx = classNames.bind(styles);
 const limit = 12;
+const origin = 'http://localhost:3600/products?_limit=' + limit;
 
 export default function Collection() {
   const [isEnd, setIsEnd] = useState(false);
+  const [url, setUrl] = useState(origin);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [filters, setFilters] = useState({});
 
-  console.log(products);
   // add scroll event to check reached bottom or not
   useEffect(() => {
-    fetch(`http://localhost:3600/products?_limit=${limit}`)
+    fetch(url)
       .then((res) => res.json())
       .then((res) => setProducts(res));
-    document.addEventListener('scroll', doesItEnded);
 
+    document.addEventListener('scroll', doesItEnded);
     return () => document.removeEventListener('scroll', doesItEnded);
-  }, []);
+  }, [url]);
 
   // load more products when reach bottom
   useEffect(() => {
     if (isEnd) {
       setLoading(true);
-      fetch(`http://localhost:3600/products?_limit=${limit}&_page=${products.length / limit}`)
+      fetch(url + '&_start=' + products.length)
         .then((res) => res.json())
         .then((res) => {
           setProducts((last) => {
@@ -41,6 +43,21 @@ export default function Collection() {
         });
     }
   }, [isEnd]);
+
+  useEffect(() => {
+    let newUrl = origin;
+    Object.keys(filters).forEach((key, index) => {
+      newUrl += `&${key}=${filters[key]}`;
+    });
+    setUrl(newUrl);
+  }, [filters]);
+
+  const updateFilter = (params) => {
+    setFilters((lastFilter) => {
+      return { ...lastFilter, ...params };
+    });
+  };
+  console.log(url);
 
   const productsWrapper = useRef();
   const doesItEnded = (e) => {
@@ -71,23 +88,23 @@ export default function Collection() {
           </div>
         </div>
         <div className={cx('products')} ref={productsWrapper}>
-          {products.map((product) => {
+          {products.map((product, index) => {
             return (
-              <div className={cx('item')}>
+              <div className={cx('item')} key={index}>
                 <Product product={product} />
               </div>
             );
           })}
         </div>
-        {/* {loading && ( */}
-        <div className={cx('loading')}>
-          <FontAwesomeIcon icon={faSpinner} className={cx('icon')} />
-        </div>
-        {/* )} */}
+        {loading && (
+          <div className={cx('loading')}>
+            <FontAwesomeIcon icon={faSpinner} className={cx('icon')} />
+          </div>
+        )}
       </div>
       <div className={cx('side')}>
         <div className={cx('filters')}>
-          <Filters />
+          <Filters updateFilter={updateFilter} />
         </div>
 
         <div className={cx('collections')}></div>

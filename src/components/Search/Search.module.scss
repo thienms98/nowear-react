@@ -1,5 +1,5 @@
 .wrapper{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -20,14 +20,27 @@
   padding: 3em 0;
   transform: translateY(-100%);
   transition: all 1s;
+  z-index: 65;
 
   .close-btn{
     position: absolute;
     font-size: 2em;
     top: 1em;
     right: 1em;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    // animation: rolling-button 1s .5s ease-in reverse forwards; 
+    z-index: 66;
+
+    &:hover{
+      background-color: var(--red-text);
+    }
+    &>svg{
+      z-index: 65;
+    }
   }
 
 }

@@ -19,6 +19,7 @@
     transform-origin: top center;
     transform: scaleY(0);
     transition: all .5s;
+    display: none;
   }
 }
 
@@ -28,5 +29,6 @@
   }
   .body{
     transform: scaleY(1);
+    display: block;
   }
 }
