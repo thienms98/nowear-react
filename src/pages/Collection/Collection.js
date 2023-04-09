@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
-import { Product } from '../../components/Product';
-
-import { Filters } from '../../components/Filters';
+import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown, faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+
+import { Product } from '../../components/Product';
+import { Filters } from '../../components/Filters';
 
 import classNames from 'classnames/bind';
 import styles from './Collection.module.scss';
@@ -17,6 +18,7 @@ export default function Collection() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [filters, setFilters] = useState({});
+  const { query } = useParams();
 
   // add scroll event to check reached bottom or not
   useEffect(() => {
@@ -24,8 +26,8 @@ export default function Collection() {
       .then((res) => res.json())
       .then((res) => setProducts(res));
 
-    document.addEventListener('scroll', doesItEnded);
-    return () => document.removeEventListener('scroll', doesItEnded);
+    document.addEventListener('scroll', isItEnded);
+    return () => document.removeEventListener('scroll', isItEnded);
   }, [url]);
 
   // load more products when reach bottom
@@ -52,15 +54,18 @@ export default function Collection() {
     setUrl(newUrl);
   }, [filters]);
 
+  useEffect(() => {
+    updateFilter({ name_like: query });
+  }, [query]);
+
   const updateFilter = (params) => {
     setFilters((lastFilter) => {
       return { ...lastFilter, ...params };
     });
   };
-  console.log(url);
 
   const productsWrapper = useRef();
-  const doesItEnded = (e) => {
+  const isItEnded = (e) => {
     const wdHeight = window.innerHeight;
     const currentTopPosition = window.scrollY;
     const currentBottomPosition = wdHeight + currentTopPosition;

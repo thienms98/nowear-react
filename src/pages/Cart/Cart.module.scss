@@ -1,0 +1,47 @@
+.wrapper{
+  width: 100%;
+  font-size: 1em;
+}
+
+.title{
+  font-size: 3em;
+  font-weight: 700;
+  color: hsl(0, 0%, 20%);
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+
+  &:last-child{
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .cell{
+    flex: 1;
+    overflow: hidden;
+  }
+  .cell:first-child{
+    flex: 4
+  }
+  .cell:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .num>input{
+      width: 2em;
+    }
+    .btn{
+      width: 2em;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

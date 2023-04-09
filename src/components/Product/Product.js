@@ -1,16 +1,17 @@
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faEye, faCartShopping, faCheck } from '@fortawesome/free-solid-svg-icons';
-import { CartContext } from '../../App';
+import { add } from '../../redux/reducers/cart';
 
 import classNames from 'classnames/bind';
 import styles from './Product.module.scss';
 const cx = classNames.bind(styles);
 
 export default function Product({ product }) {
+  const dispatch = useDispatch();
   const [fav, setFav] = useState(false);
-  const { cart, dispatch } = useContext(CartContext);
 
   return (
     <Link to={`/product/${product.id}`}>
@@ -38,7 +39,7 @@ export default function Product({ product }) {
               className={cx('item')}
               title="Add to cart"
               onClick={() => {
-                dispatch({ type: 'add', payload: product });
+                dispatch(add(product));
               }}
             >
               <FontAwesomeIcon icon={faCartShopping} />

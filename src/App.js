@@ -1,45 +1,37 @@
-import { useState, useReducer, createContext } from 'react';
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Header, Footer } from './Layouts';
-import { HomePage, Collection } from './pages';
+import { HomePage, Collection, Product, Account, Cart } from './pages';
 import { Search } from './components/Search';
 
-export const CartContext = createContext();
-
 export default function App() {
-  const initCart = [];
-  const cartReducer = (state, action) => {
-    switch (action.type) {
-      case 'add':
-        return [...state, action.payload];
-      case 'remove':
-        state.splice(action.payload, 0);
-        return state;
-      default:
-        return state;
-    }
-  };
-  const [cart, dispatch] = useReducer(cartReducer, initCart);
   const [search, setSearch] = useState(false);
-  console.log(search);
   const toggleSearch = (bool) => {
-    console.log(bool);
     if (!bool) setSearch((last) => !last);
     else setSearch(bool);
   };
 
+  const bodyStyle = {
+    margin: '40px 0',
+  };
+
   return (
-    <CartContext.Provider value={{ cart, dispatch }}>
-      <div className="App">
-        <Header toggle={toggleSearch} />
-        {search && <Search toggle={toggleSearch} />}
+    <div className="App" style={{ minWidth: '100vh' }}>
+      <Header toggle={toggleSearch} />
+      {search && <Search toggle={toggleSearch} />}
+      <div style={bodyStyle}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collection" element={<Collection />} />
+          <Route path="/collection/:query" element={<Collection />} />
+          <Route path="/product/:productId" element={<Product />} />
+
+          <Route path="/account/:page" element={<Account />}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
         </Routes>
-        <Footer />
       </div>
-    </CartContext.Provider>
+      <Footer />
+    </div>
   );
 }

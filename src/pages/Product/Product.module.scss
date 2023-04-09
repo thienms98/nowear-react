@@ -1,0 +1,149 @@
+.wrapper{
+  font-size: 1em;
+  margin-top: 4em;
+}
+
+
+.product{
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel{
+  width: 40%;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5em;
+  box-sizing: border-box;
+
+  .name{
+    font-size: 2em;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .prices{
+    font-size: 1.25em;
+    color: var(--primary-text);
+    font-weight: 600;
+    &.off{
+      &>span:nth-child(1){
+        color: var(--red-text);
+        margin-right: 5px;
+      }
+      &>span:nth-child(2){
+        font-size: .8em;
+        color: var(--primary-text);
+      }
+    }
+  }
+  .size-guide:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .qty{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-text);
+    -webkit-user-select: none;
+    user-select: none;
+
+    .btn{
+      padding: .5em 1em;
+      cursor: pointer;
+    }
+    .btn.disabled{
+      cursor: not-allowed;
+      opacity: .4;
+    }
+    .num{
+      padding: 0.5em;
+    }
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &>.item{
+      padding: 1em;
+      color: var(--primary-text);
+      border: 1px solid var(--primary-text);
+      border-radius: 8px;
+      font-weight: 600;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+
+      &.fav{
+        --primary-text: var(--red-text);
+        
+        &>svg{
+          animation: scaleUp .8s forwards;
+        }
+      }
+      &>*{
+        position: relative;
+        z-index: 5;
+      }
+      &::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        z-index: 2;
+      }
+
+      &:hover::before{
+        background-color: var(--primary-text);
+        box-shadow: 
+          0 0 5px 0 var(--primary-text),
+          0 0 5px 2px var(--primary-text),
+          0 0 5px 4px var(--primary-text);
+        animation: fade .3s forwards;
+      }
+      &:hover{
+        color: var(--primary-background);
+      }
+    }
+
+    @keyframes fade{
+      0%{
+        box-shadow: 
+          0 0 5px 0 var(--primary-text),
+          0 0 5px 2px var(--primary-text),
+          0 0 5px 4px var(--primary-text);
+      } 
+      100%{
+        box-shadow: 
+          0 0 5px 0 var(--primary-text),
+          0 0 5px 100px var(--primary-text),
+          0 0 5px 150px var(--primary-text);
+      }
+    }
+    @keyframes scaleUp{
+      0%{
+        transform: scale(1);
+      }
+      50%{
+        transform: scale(2);
+      }
+      100%{
+        transform: scale(1);
+      }
+    }
+  }
+}
+

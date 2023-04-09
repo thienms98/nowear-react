@@ -1,4 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useDebounce } from '../../hooks';
+import { Product } from '../Product';
 
 import classNames from 'classnames/bind';
 import styles from './Search.module.scss';
@@ -7,24 +10,39 @@ const cx = classNames.bind(styles);
 export default function Search({ toggle }) {
   const [text, setText] = useState('');
   const [visible, setVisible] = useState(null);
+  const [searchResult, setSearchResult] = useState({});
   const searchRef = useRef();
+  console.log(searchResult);
+
+  const searchText = useDebounce(text, 500);
 
   useEffect(() => {
     setVisible(true);
   }, []);
 
-  const close = (e) => {
-    const targetClasses = [...e.target.classList];
-    if ((targetClasses.includes(styles.wrapper) || targetClasses.includes(styles['close-btn'])) && visible) {
-      setVisible(false);
-      setTimeout(() => {
-        toggle(false);
-      }, 1000);
-    }
+  const close = () => {
+    setVisible(false);
+    setTimeout(() => {
+      toggle(false);
+    }, 1000);
   };
 
+  useEffect(() => {
+    console.log(searchText);
+    if (searchText?.trim()) {
+      fetch(`http://localhost:3600/products?name_like=${searchText}`)
+        .then((res) => res.json())
+        .then((res) =>
+          setSearchResult((result) => {
+            return { ...result, products: res };
+          }),
+        );
+    }
+  }, [searchText]);
+
   return (
-    <div className={cx('wrapper', { appear: visible }, { disappear: !visible })} onClick={close}>
+    <div className={cx('wrapper', { appear: visible }, { disappear: !visible })}>
+      <div className={cx('overlay')} onClick={close}></div>
       <div className={cx('search-input')}>
         <div className={cx('close-btn')} onClick={close}>
           &times;
@@ -35,23 +53,22 @@ export default function Search({ toggle }) {
         </div>
       </div>
       <div className={cx('search-result')}>
-        <div className={cx('texts')}>
-          <div className={cx('item')}>
-            <div className={cx('title')}>popular suggestions</div>
-            <div className={cx('body')}>No suggestions were found</div>
-          </div>
-          <div className={cx('item')}>
-            <div className={cx('title')}>categories</div>
-            <div className={cx('body')}>No categories were found</div>
-          </div>
-          <div className={cx('item')}>
-            <div className={cx('title')}>pages</div>
-          </div>
+        <div className={cx('products')}>
+          {searchResult.products?.length === 0 && searchText.trim() && `Sorry. Nothing found for '${searchText}'`}
+          {searchResult.products &&
+            searchResult.products.slice(0, 3).map((prod) => {
+              return (
+                <div className={cx('product')} onClick={close}>
+                  <Product product={prod} />
+                </div>
+              );
+            })}
         </div>
-        <div className={cx('products item')}>
-          <div className={cx('title')}>categories</div>
-          <div className={cx('body')}>Sorry. Nothing found for {}</div>
-        </div>
+        {searchResult.products?.length > 3 && (
+          <div className={cx('btn')} onClick={close}>
+            <Link to={`/collection/${searchText}`}>More Results</Link>
+          </div>
+        )}
       </div>
     </div>
   );

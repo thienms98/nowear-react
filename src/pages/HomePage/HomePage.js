@@ -9,7 +9,6 @@ const cx = classNames.bind(styles);
 export default function HomePage() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    // fetch('https://64243681474017404335e842.mockapi.io/homepage')
     fetch('http://localhost:3600/homepage')
       .then((res) => res.json())
       .then((res) => setProducts(res.products));

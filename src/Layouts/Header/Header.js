@@ -1,15 +1,15 @@
 import { useState, useEffect, useContext, useRef } from 'react';
+import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHeart, faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import { CartContext } from '../../App';
 
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classNames.bind(styles);
 
 export default function Header({ toggle }) {
-  const { cart } = useContext(CartContext);
+  const cart = useSelector((state) => state.cart.list);
   const [newArrive, setNewArrive] = useState(false);
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
@@ -87,7 +87,9 @@ export default function Header({ toggle }) {
       </div>
 
       <div className={cx('user')}>
-        <div className={cx('item', 'login')}>LOGIN</div>
+        <div className={cx('item', 'login')}>
+          <Link to={'/account/login'}>LOGIN</Link>
+        </div>
         <div className={cx('item', 'search')} onClick={toggle}>
           <FontAwesomeIcon icon={faSearch} />
         </div>
@@ -95,8 +97,10 @@ export default function Header({ toggle }) {
           <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className={cx('item', 'cart', { 'new-arrive': newArrive })}>
-          <FontAwesomeIcon icon={faCartShopping} />
-          <div className={cx('index')}>{cart.length}</div>
+          <Link to={'/cart'}>
+            <FontAwesomeIcon icon={faCartShopping} />
+            <div className={cx('index')}>{cart.length}</div>
+          </Link>
         </div>
       </div>
     </div>
