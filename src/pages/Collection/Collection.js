@@ -18,7 +18,7 @@ export default function Collection() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [filters, setFilters] = useState({});
-  const { query } = useParams();
+  const { collectionName, query } = useParams();
 
   // add scroll event to check reached bottom or not
   useEffect(() => {
@@ -46,17 +46,18 @@ export default function Collection() {
     }
   }, [isEnd]);
 
+  // map filters to get correct fetching url
   useEffect(() => {
     let newUrl = origin;
     Object.keys(filters).forEach((key, index) => {
-      newUrl += `&${key}=${filters[key]}`;
+      if (filters[key]) newUrl += `&${key}=${filters[key]}`;
     });
     setUrl(newUrl);
   }, [filters]);
 
   useEffect(() => {
-    updateFilter({ name_like: query });
-  }, [query]);
+    updateFilter({ name_like: query, category_like: collectionName });
+  }, [query, collectionName]);
 
   const updateFilter = (params) => {
     setFilters((lastFilter) => {
@@ -83,15 +84,6 @@ export default function Collection() {
     <div className={cx('wrapper')}>
       <div className={cx('main')}>
         <div className={cx('title')}></div>
-        <div>
-          <div className={cx('total')}>15 products</div>
-          <div className={cx('layouts')}>
-            <div className={cx('item')}>2 cols</div>
-            <div className={cx('item')}>3 cols</div>
-            <div className={cx('item')}>4 cols</div>
-            <div className={cx('item')}>details</div>
-          </div>
-        </div>
         <div className={cx('products')} ref={productsWrapper}>
           {products.map((product, index) => {
             return (

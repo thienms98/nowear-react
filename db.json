@@ -1921,7 +1921,7 @@
       "category": "Bags & Wallets"
     }
   ],
-  "categories": ["Jeans", "Bags & Wallets", "Jackets & Coats", "Hoodies & Sweatshirts"],
+  "collections": ["Jeans", "Bags & Wallets", "Jackets & Coats", "Hoodies & Sweatshirts"],
   "brands": [
     "Levi's",
     "Waven",
@@ -1958,6 +1958,8 @@
     "SVNX",
     "Claudia Canova"
   ],
+  "colors": ["blue", "gray", "purple","black", "orange", "brown",  "fuchsia", "pink", "green",  "red", "indigo", "chocolate",  "cyan", "navy","silver",  "teal",  "tan","olive","white"]
+  ,
   "homepage": {
     "products": [
       {

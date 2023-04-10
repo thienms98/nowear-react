@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-import { auth } from '../../firebase';
-
 import classNames from 'classnames/bind';
 import styles from './Account.module.scss';
 const cx = classNames.bind(styles);

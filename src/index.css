@@ -24,3 +24,15 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+btn{
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* *::-webkit-scrollbar-thumb{
+  width: 4px;
+  border-radius: 2px;
+  background-color: #5c5c5c;
+} */

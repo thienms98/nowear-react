@@ -24,7 +24,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collection" element={<Collection />} />
-          <Route path="/collection/:query" element={<Collection />} />
+          <Route path="/collection/:collectionName" element={<Collection />} />
+          <Route path="/collection/search/:query" element={<Collection />} />
           <Route path="/product/:productId" element={<Product />} />
 
           <Route path="/account/:page" element={<Account />}></Route>
