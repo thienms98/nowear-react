@@ -22,9 +22,9 @@ export default function Search({ toggle }) {
 
   const close = () => {
     setVisible(false);
-    setTimeout(() => {
-      toggle(false);
-    }, 1000);
+    // setTimeout(() => {
+    toggle(false);
+    // }, 1000);
   };
 
   useEffect(() => {
@@ -66,7 +66,7 @@ export default function Search({ toggle }) {
         </div>
         {searchResult.products?.length > 3 && (
           <div className={cx('btn')} onClick={close}>
-            <Link to={`/collection/${searchText}`}>More Results</Link>
+            <Link to={`/collection/search/${searchText}`}>More Results</Link>
           </div>
         )}
       </div>

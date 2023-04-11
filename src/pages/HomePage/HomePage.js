@@ -104,9 +104,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className={cx('deal')}></div>
+      {/* <div className={cx('deal')}></div>
 
-      <div className={cx('brands')}>Explore our brands</div>
+      <div className={cx('brands')}>Explore our brands</div> */}
     </div>
   );
 }

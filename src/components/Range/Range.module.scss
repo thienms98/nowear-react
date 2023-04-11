@@ -1,7 +1,6 @@
 .price-range{
   width: 100%;
   background-color: var(--primary-background);
-  border: 1px solid var(--dark-background);
   display: flex;
   flex-direction: column;
 
@@ -30,6 +29,7 @@
         height: 1em;
         border-radius: .5em;
         box-sizing: border-box;
+        cursor: pointer;
       }
 
       &.over{

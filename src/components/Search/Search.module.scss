@@ -27,7 +27,7 @@
   gap: 1em;
   padding: 3em 0;
   transform: translateY(-100%);
-  transition: all 1s;
+  // transition: all 1s;
   z-index: 65;
 
   .close-btn{
@@ -55,7 +55,7 @@
 .search-result{
   background-color: var(--primary-background);
   position: relative;
-  padding-bottom: 2em;
+  // padding-bottom: 2em;
   z-index: 65;
 
   .products{

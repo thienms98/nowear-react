@@ -44,6 +44,7 @@ export default function Collection() {
           setLoading(false);
         });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isEnd]);
 
   // map filters to get correct fetching url
@@ -56,7 +57,11 @@ export default function Collection() {
   }, [filters]);
 
   useEffect(() => {
-    updateFilter({ name_like: query, category_like: collectionName });
+    updateFilter({
+      name_like: query,
+      category_like: collectionName === 'sale' ? null : collectionName,
+      originalPrice_ne: collectionName === 'sale' ? 'null' : null,
+    });
   }, [query, collectionName]);
 
   const updateFilter = (params) => {
@@ -66,10 +71,10 @@ export default function Collection() {
   };
 
   const productsWrapper = useRef();
-  const isItEnded = (e) => {
-    const wdHeight = window.innerHeight;
+  const isItEnded = () => {
+    const windowHeight = window.innerHeight;
     const currentTopPosition = window.scrollY;
-    const currentBottomPosition = wdHeight + currentTopPosition;
+    const currentBottomPosition = windowHeight + currentTopPosition;
 
     const wrapperTopPosition = productsWrapper.current.offsetTop;
     const wrapperHeight = productsWrapper.current.offsetHeight;
@@ -85,13 +90,20 @@ export default function Collection() {
       <div className={cx('main')}>
         <div className={cx('title')}></div>
         <div className={cx('products')} ref={productsWrapper}>
-          {products.map((product, index) => {
-            return (
-              <div className={cx('item')} key={index}>
-                <Product product={product} />
-              </div>
-            );
-          })}
+          {products.length === 0 ? (
+            <>
+              There are no product match the conditions
+              <br /> Try to change the conditions with the filter on the right =&gt;
+            </>
+          ) : (
+            products.map((product, index) => {
+              return (
+                <div className={cx('item')} key={index}>
+                  <Product product={product} />
+                </div>
+              );
+            })
+          )}
         </div>
         {loading && (
           <div className={cx('loading')}>

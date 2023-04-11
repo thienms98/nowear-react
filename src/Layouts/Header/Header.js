@@ -2,11 +2,17 @@ import { useState, useEffect, useContext, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faHeart, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classNames.bind(styles);
+
+const menu = [
+  { title: 'Home', path: '/' },
+  { title: 'Collection', path: '/collection' },
+  { title: 'Sale', path: '/collection/sale' },
+];
 
 export default function Header({ toggle }) {
   const cart = useSelector((state) => state.cart.list);
@@ -26,7 +32,7 @@ export default function Header({ toggle }) {
   useEffect(() => {
     const stickiedHeader = () => {
       const height = headerRef.current.offsetHeight;
-      if (window.scrollY > height) setSticky(true);
+      if (window.scrollY > height / 2) setSticky(true);
       else setSticky(false);
     };
     window.addEventListener('scroll', stickiedHeader);
@@ -36,50 +42,22 @@ export default function Header({ toggle }) {
   return (
     <div className={cx('wrapper', { sticky: sticky })} ref={headerRef}>
       <div className={cx('menu')}>
-        <div
-          className={cx('item')}
-          onMouseOver={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'in');
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'out');
-          }}
-        >
-          <Link to={'/'}>Home</Link>
-        </div>
-        <div
-          className={cx('item')}
-          onMouseOver={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'in');
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'out');
-          }}
-        >
-          <Link to={'#'}>Shop</Link>
-        </div>
-        <div
-          className={cx('item')}
-          onMouseOver={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'in');
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'out');
-          }}
-        >
-          <Link to={'/collection'}>Collections</Link>
-        </div>
-        <div
-          className={cx('item')}
-          onMouseOver={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'in');
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.setAttribute('data-animation', 'out');
-          }}
-        >
-          <Link to={'#'}>Sale</Link>
-        </div>
+        {menu.map((mItem, index) => {
+          return (
+            <div
+              className={cx('item')}
+              onMouseOver={(e) => {
+                e.currentTarget.setAttribute('data-animation', 'in');
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.setAttribute('data-animation', 'out');
+              }}
+              key={index}
+            >
+              <Link to={mItem.path}>{mItem.title}</Link>
+            </div>
+          );
+        })}
       </div>
 
       <div className={cx('logo')}>
@@ -92,9 +70,6 @@ export default function Header({ toggle }) {
         </div>
         <div className={cx('item', 'search')} onClick={toggle}>
           <FontAwesomeIcon icon={faSearch} />
-        </div>
-        <div className={cx('item', 'favorite')}>
-          <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className={cx('item', 'cart', { 'new-arrive': newArrive })}>
           <Link to={'/cart'}>

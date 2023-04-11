@@ -5,11 +5,10 @@ import classNames from 'classnames/bind';
 import styles from './FilterItem.module.scss';
 const cx = classNames.bind(styles);
 
-export default function FilterItem({ title, children }) {
-  const [state, setState] = useState(false);
+export default function FilterItem({ title, drop, expand, children }) {
   return (
-    <div className={cx('wrapper', { dropdown: state })}>
-      <div className={cx('title')} onClick={() => setState((state) => !state)}>
+    <div className={cx('wrapper', { dropdown: drop })}>
+      <div className={cx('title')} onClick={expand}>
         {title}
         <div className={cx('icon')}>
           <FontAwesomeIcon icon={faChevronDown} />

@@ -1,0 +1,108 @@
+.wrapper{
+  padding: 0 10% 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  font-size: 1.125em;
+}
+
+.subscribing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .title{
+    .main{
+      font-size: 1.2em;
+      font-weight: 700;
+      padding-bottom: 0.3em;
+    }
+    .sub{
+      opacity: .9;
+    }
+  }
+
+  & .mail{
+    color: rgb(0, 210, 0);
+  }
+  & .mail > form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+
+    &>input{
+      border: 1px solid var(--primary-text);
+      background-color: var(--primary-background);
+      padding: 0.5em 1em;
+    }
+    &>input:last-child{
+      background-color: var(--primary-text);
+      color: var(--primary-background);
+      cursor: pointer;
+    }
+  }
+  
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: flex-start;
+
+  .col{
+    flex: 1;
+
+    &:first-child{
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+    .vendy{
+      color: #333;
+    }
+    .contact .item{
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+    }
+
+    .title{
+      font-weight: 700;
+      margin-bottom: 1.125em;
+    }
+    &>.item{
+      color: #333;
+      margin-bottom: 0.325em;
+    }
+    &>.item:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+    .item{
+      opacity: .5;
+      cursor: pointer;
+
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+}

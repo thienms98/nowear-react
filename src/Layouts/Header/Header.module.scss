@@ -84,7 +84,14 @@
 
 .user{
   justify-content: flex-end;
-  gap: 2em;
+
+  .item:not(:last-child){
+    padding: 0 1em;
+    height: 100%;
+  }
+  .item:last-child{
+    padding-left: 1em;
+  }
 
   .cart{
     position: relative;

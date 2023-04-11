@@ -23,6 +23,8 @@ export default function Filters({ updateFilter }) {
   const [colorSelected, setColorSelected] = useState(null);
   const [sortBy, setSortBy] = useState(null);
 
+  const [filterSelected, setFilterSelected] = useState(null);
+
   useEffect(() => {
     fetch('http://localhost:3600/brands')
       .then((res) => res.json())
@@ -37,9 +39,14 @@ export default function Filters({ updateFilter }) {
       .then((collections) => setCollections(collections));
   }, []);
 
+  const expand = (index) => {
+    if (filterSelected === index) setFilterSelected(null);
+    else setFilterSelected(index);
+  };
+
   return (
     <div className={cx('wrapper')}>
-      <FilterItem title={'Sort by'}>
+      <FilterItem title={'Sort by'} drop={filterSelected === 0} expand={() => expand(0)}>
         <div className={cx('sort-options')}>
           {sortOptions.map((sort, index) => {
             return (
@@ -57,7 +64,7 @@ export default function Filters({ updateFilter }) {
           })}
         </div>
       </FilterItem>
-      <FilterItem title={'Vendors'}>
+      <FilterItem title={'Vendors'} drop={filterSelected === 1} expand={() => expand(1)}>
         <form className={cx('vendors')}>
           {brands.map((brand, index) => {
             return (
@@ -78,10 +85,10 @@ export default function Filters({ updateFilter }) {
           })}
         </form>
       </FilterItem>
-      <FilterItem title={'Price range'}>
+      <FilterItem title={'Price range'} drop={filterSelected === 2} expand={() => expand(2)}>
         <Range list={priceValues} updateFilter={updateFilter} />
       </FilterItem>
-      <FilterItem title={'Color'}>
+      <FilterItem title={'Color'} drop={filterSelected === 3} expand={() => expand(3)}>
         <div className={cx('colors')}>
           {colors.map((color, index) => {
             return (
@@ -99,7 +106,7 @@ export default function Filters({ updateFilter }) {
           })}
         </div>
       </FilterItem>
-      <FilterItem title={'Collection'}>
+      <FilterItem title={'Collection'} drop={filterSelected === 4} expand={() => expand(4)}>
         <div className={cx('collections')}>
           {collections.map((collection) => {
             return (

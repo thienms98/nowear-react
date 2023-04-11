@@ -10,36 +10,11 @@ import classNames from 'classnames/bind';
 import styles from './Product.module.scss';
 const cx = classNames.bind(styles);
 
-// const product = {
-//   name: 'Blue Overdyed Munich Logo T Shirt',
-//   price: {
-//     prev: 360,
-//     current: 340,
-//   },
-//   // tags: ['sale', 'new'],
-//   description:
-//     'Subtitle Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip...',
-//   vendor: 'H&M',
-//   type: 'tshirts',
-//   tags: ['polos'],
-//   collections: ['clothing', 'handbag', 'mens', 'new in', 'women'],
-//   images: [
-//     'https://picsum.photos/id/237/500/750',
-//     'https://picsum.photos/id/238/500/750',
-//     'https://picsum.photos/id/239/500/750',
-//     'https://picsum.photos/id/240/500/750',
-//     'https://picsum.photos/id/241/500/750',
-//     'https://picsum.photos/id/242/500/750',
-//     'https://picsum.photos/id/243/500/750',
-//     'https://picsum.photos/id/244/500/750',
-//   ],
-// };
-
 export default function Product() {
   const { productId } = useParams();
   const cart = useSelector((state) => state.cart.list);
   const [product, setProduct] = useState(null);
-  const [fav, setFav] = useState(true);
+  const [fav, setFav] = useState(false);
   const [amount, setAmount] = useState(1);
   const dispatch = useDispatch();
   console.log(product);
@@ -59,7 +34,10 @@ export default function Product() {
           </div>
 
           <div className={cx('detail')}>
-            <div className={cx('tags')}></div>
+            <div className={cx('tags')}>
+              {product.originalPrice && <div className={cx('item')}>Sale</div>}
+              <div className={cx('item')}>{product.stock ? 'In stock' : 'Out of Stock'}</div>
+            </div>
             <div className={cx('name')}>{product.name}</div>
             <div className={cx('prices', { off: product.originalPrice })}>
               {product.originalPrice ? (
@@ -71,7 +49,7 @@ export default function Product() {
                   </span>
                 </>
               ) : (
-                product.price
+                '$' + product.price
               )}
             </div>
             <div className={cx('size-guide')}>

@@ -4,6 +4,7 @@ import { amountById } from '../../redux/reducers/cart';
 
 import classNames from 'classnames/bind';
 import styles from './Cart.module.scss';
+import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 export default function Cart() {
@@ -37,16 +38,22 @@ export default function Cart() {
           </div>
         </div>
       </table>
+
+      <div className={cx('btn')}>
+        <Link to="/collection">Continue Shopping</Link>
+      </div>
     </div>
   );
 }
 
 function CartProduct({ product }) {
-  const { id, name, price, amount } = product;
+  const { id, imageUrl, name, price, amount } = product;
   const dispatch = useDispatch();
   return (
     <div className={cx('row')}>
-      <div className={cx('cell')}>{name}</div>
+      <div className={cx('cell')}>
+        <img src={imageUrl} alt="" /> {name}
+      </div>
       <div className={cx('cell')}>{`$${price}`}</div>
       <div className={cx('cell')}>
         <div

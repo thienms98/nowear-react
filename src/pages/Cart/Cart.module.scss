@@ -1,6 +1,9 @@
 .wrapper{
   width: 100%;
   font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title{
@@ -12,23 +15,48 @@
 .list{
   display: flex;
   flex-direction: column;
+  gap: 0.5em;
   width: 100%;
 }
 .row{
   display: flex;
   flex-direction: row;
+  align-items: center;
 
+  &:first-child > .cell{
+    text-align: center;
+    width: 100%;
+  }
   &:last-child{
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+    height: 50px;
   }
 
   .cell{
     flex: 1;
     overflow: hidden;
+
+    &>img{
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &:not(:first-child) .cell:first-child{
+    height: 200px;
   }
   .cell:first-child{
-    flex: 4
+    flex: 4;
+    min-height: 50px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .cell:not(:first-child){
+    text-align: center;
   }
   .cell:nth-child(3){
     display: flex;
@@ -43,5 +71,14 @@
       text-align: center;
       cursor: pointer;
     }
+  } 
+} 
+
+.btn{
+  padding: 1em 3em;
+  cursor: pointer;
+
+  &:hover{
+    text-decoration: underline;
   }
 }

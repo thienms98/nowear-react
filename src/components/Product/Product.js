@@ -23,7 +23,7 @@ export default function Product({ product }) {
           <img src={product.hoverImage} alt="" />
         </div>
         <div className={cx('tags')}>
-          <div className={cx('item')}>New</div>
+          {!product.stock && <div className={cx('item')}> Out of Stock</div>}
           {product.originalPrice && product.price < product.originalPrice && (
             <div className={cx('item', 'sale')}>SALE</div>
           )}
