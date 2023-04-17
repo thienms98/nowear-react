@@ -10,7 +10,7 @@ import classNames from 'classnames/bind';
 import styles from './Collection.module.scss';
 const cx = classNames.bind(styles);
 const limit = 12;
-const origin = 'http://localhost:3600/products?_limit=' + limit;
+const origin = 'https://nowear-api.vercel.app/products?_limit=' + limit;
 
 export default function Collection() {
   const [isEnd, setIsEnd] = useState(false);

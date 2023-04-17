@@ -30,7 +30,7 @@ export default function Search({ toggle }) {
   useEffect(() => {
     console.log(searchText);
     if (searchText?.trim()) {
-      fetch(`http://localhost:3600/products?name_like=${searchText}`)
+      fetch(`https://nowear-api.vercel.app/products?name_like=${searchText}`)
         .then((res) => res.json())
         .then((res) =>
           setSearchResult((result) => {

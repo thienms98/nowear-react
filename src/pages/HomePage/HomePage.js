@@ -9,7 +9,7 @@ const cx = classNames.bind(styles);
 export default function HomePage() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:3600/homepage')
+    fetch('https://nowear-api.vercel.app/homepage')
       .then((res) => res.json())
       .then((res) => setProducts(res.products));
   }, []);

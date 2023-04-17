@@ -20,7 +20,7 @@ export default function Product() {
   console.log(product);
 
   useEffect(() => {
-    fetch(`http://localhost:3600/products?id=${productId}`)
+    fetch(`https://nowear-api.vercel.app/products?id=${productId}`)
       .then((res) => res.json())
       .then((res) => setProduct(res[0]));
   }, [productId]);

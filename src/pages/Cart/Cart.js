@@ -22,25 +22,33 @@ export default function Cart() {
           {/* <div className={cx('cell')}> </div> */}
         </div>
 
-        {cart.map((product, index) => {
-          return <CartProduct product={product} />;
-        })}
+        {cart.length > 0 ? (
+          cart.map((product, index) => {
+            return <CartProduct product={product} />;
+          })
+        ) : (
+          <h2>There is nothing on your cart</h2>
+        )}
 
-        <div className={cx('row')}>
-          <div className={cx('cell')}></div>
-          <div className={cx('cell')}></div>
-          <div className={cx('cell')}>Summary</div>
-          <div className={cx('cell')}>
-            $
-            {cart.reduce((prev, current) => {
-              return prev + current.amount * current.price;
-            }, 0)}
+        {cart.length > 0 && (
+          <div className={cx('row')}>
+            <div className={cx('cell')}></div>
+            <div className={cx('cell')}></div>
+            <div className={cx('cell')}>Summary</div>
+            <div className={cx('cell')}>
+              $
+              {cart.reduce((prev, current) => {
+                return prev + current.amount * current.price;
+              }, 0)}
+            </div>
           </div>
-        </div>
+        )}
       </table>
 
-      <div className={cx('btn')}>
-        <Link to="/collection">Continue Shopping</Link>
+      <div className={cx('button')}>
+        <Link to="/collection">
+          <h3>Continue Shopping</h3>
+        </Link>
       </div>
     </div>
   );

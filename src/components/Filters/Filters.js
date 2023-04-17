@@ -26,15 +26,15 @@ export default function Filters({ updateFilter }) {
   const [filterSelected, setFilterSelected] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3600/brands')
+    fetch('https://nowear-api.vercel.app/brands')
       .then((res) => res.json())
       .then((brands) => setBrands([null, ...brands]));
 
-    fetch('http://localhost:3600/colors')
+    fetch('https://nowear-api.vercel.app/colors')
       .then((res) => res.json())
       .then((colors) => setColors([null, ...colors]));
 
-    fetch('http://localhost:3600/collections')
+    fetch('https://nowear-api.vercel.app/collections')
       .then((res) => res.json())
       .then((collections) => setCollections(collections));
   }, []);

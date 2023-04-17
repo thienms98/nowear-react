@@ -1,8 +1,8 @@
-import { useState, useEffect, useContext, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faCartShopping, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
@@ -14,7 +14,7 @@ const menu = [
   { title: 'Sale', path: '/collection/sale' },
 ];
 
-export default function Header({ toggle }) {
+export default function Header({ toggle, darkTheme, toggleTheme }) {
   const cart = useSelector((state) => state.cart.list);
   const [newArrive, setNewArrive] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -65,6 +65,11 @@ export default function Header({ toggle }) {
       </div>
 
       <div className={cx('user')}>
+        <div className={cx('theme')}>
+          <div className={cx('thumb')} onClick={toggleTheme}>
+            <FontAwesomeIcon icon={darkTheme ? faMoon : faSun} />
+          </div>
+        </div>
         <div className={cx('item', 'login')}>
           <Link to={'/account/login'}>LOGIN</Link>
         </div>

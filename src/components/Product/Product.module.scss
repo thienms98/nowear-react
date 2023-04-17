@@ -88,6 +88,7 @@ $border: 1px;
       text-transform: uppercase;
       padding: .25em .5em;
       border-radius: .5em;
+      color: #fff;
       
       &.sale{
         background-color: var(--secondary-background);
@@ -138,8 +139,7 @@ $border: 1px;
       font-size: 1em;
       padding: .3em 1.5em;
       border-radius: 1em;
-      color: var(--secondary-text);
-      background-color: var(--tag-background);
+      background-color: var(--primary-background);
     }
   }
 

@@ -7,6 +7,7 @@ import { Search } from './components/Search';
 
 export default function App() {
   const [search, setSearch] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(false);
   const toggleSearch = (bool) => {
     if (!bool) setSearch((last) => !last);
     else setSearch(bool);
@@ -17,8 +18,11 @@ export default function App() {
   };
 
   return (
-    <div className="App" style={{ minWidth: '100vh' }}>
-      <Header toggle={toggleSearch} />
+    <div
+      className={`App ${darkTheme && 'dark'}`}
+      style={{ minWidth: '100vh', backgroundColor: 'var(--primary-background)' }}
+    >
+      <Header toggle={toggleSearch} darkTheme={darkTheme} toggleTheme={() => setDarkTheme((prev) => !prev)} />
       {search && <Search toggle={toggleSearch} />}
       <div style={bodyStyle}>
         <Routes>
