@@ -71,13 +71,22 @@
       width: 2em;
     }
     .btn{
-      width: 2em;
+      padding: 1em 2em;
       text-align: center;
       cursor: pointer;
       color: var(--primary-text);
 
     }
   } 
+  .cell:last-child{
+    &:hover{
+      color: var(--red-text)
+    }
+    &>svg{
+    padding: 2em;
+    cursor: pointer;
+    }
+  }
 } 
 
 .button{

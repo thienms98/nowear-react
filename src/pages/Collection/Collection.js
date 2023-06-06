@@ -20,6 +20,10 @@ export default function Collection() {
   const [filters, setFilters] = useState({});
   const { collectionName, query } = useParams();
 
+  useEffect(() => {
+    document.title = 'NoWear';
+  }, []);
+
   // add scroll event to check reached bottom or not
   useEffect(() => {
     fetch(url)

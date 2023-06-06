@@ -10,7 +10,7 @@ const cx = classNames.bind(styles);
 export default function Filters({ updateFilter }) {
   const priceValues = [0, 5, 10, 20, 50, 100, 150, 200, 250, null];
   const sortOptions = [
-    { title: 'All', filter: { _sort: null, _order: null } },
+    { title: 'None', filter: { _sort: null, _order: null } },
     { title: 'Alphabeticaly, A-Z', filter: { _sort: 'name', _order: 'asc' } },
     { title: 'Alphabeticaly, A-Z', filter: { _sort: 'name', _order: 'desc' } },
     { title: 'Price, low to high', filter: { _sort: 'price', _order: 'asc' } },
@@ -21,7 +21,7 @@ export default function Filters({ updateFilter }) {
   const [collections, setCollections] = useState([]);
 
   const [colorSelected, setColorSelected] = useState(null);
-  const [sortBy, setSortBy] = useState(null);
+  const [sortBy, setSortBy] = useState(0);
 
   const [filterSelected, setFilterSelected] = useState(null);
 

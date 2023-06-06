@@ -23,8 +23,10 @@ export const cartSlice = createSlice({
     amountById: (state, action) => {
       const itemId = state.list.findIndex((item) => item.id === action.payload.id);
       if (itemId !== -1) {
-        if (action.payload.increament)
+        if (action.payload.increament) {
           state.list[itemId].amount = parseInt(state.list[itemId].amount) + parseInt(action.payload.increament);
+          if (state.list[itemId].amount === 0) state.list.splice(itemId, 1);
+        }
         if (action.payload.amount) state.list[itemId].amount = action.payload.amount;
         if (state.list[itemId].amount < 1) state.list[itemId].amount = 1;
       }

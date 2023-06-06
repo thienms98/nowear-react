@@ -63,7 +63,7 @@
       gap: 1.5em;
     }
     .vendy{
-      color: #333;
+      color: var(--primary-textw);
     }
     .contact .item{
       display: flex;
@@ -104,5 +104,14 @@
         opacity: 1;
       }
     }
+  }
+}
+
+
+
+@media (max-width: 1024px){
+  .subscribing{
+    flex-direction: column;
+    gap: 1.25em;
   }
 }

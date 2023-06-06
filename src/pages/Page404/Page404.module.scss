@@ -1,0 +1,39 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-background);
+  padding-bottom: 3em;
+}
+
+.main{
+  background-image: url('https://img.freepik.com/free-photo/beautiful-shot-tall-trees-with-bare-branches-forest-gloomy-day_181624-13554.jpg?w=1060&t=st=1681804771~exp=1681805371~hmac=e41bfff6164de1ae9db0ff146e17b145985426bd694e6577a07b53cb65020f9d');
+  background-size: contain;
+  
+  &>.text{
+    width: 100%;
+    height: 100%;
+    font-size: 12em;
+    font-weight: 700;
+    background-color: var(--primary-background);
+    mix-blend-mode: screen;
+  }
+}
+.title{
+  font-size: 2em;
+  font-weight: 600;
+  padding: 1em 0 .5em;
+}
+
+.btn{
+  margin-top: .5em;
+  padding: 1em;
+  border: 1px solid currentColor;
+  background-color: var(--primary-background);
+  cursor: pointer;
+
+  &:hover{
+    background-color: var(--primary-text);
+    color: var(--primary-background);
+  }
+}

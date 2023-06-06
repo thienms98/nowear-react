@@ -12,6 +12,7 @@ body{
 .App{
   --primary-background: #fff;
   --primary-text: #1c1c1c;
+  color: var(--primary-text)
 }
 .App.dark{
   --primary-background: #1c1c1c;
@@ -32,9 +33,6 @@ body{
   --primary-text: #1c1c1c;
   --secondary-text: #fff;
   --red-text: #e12525;
-}
-*{
-  color: var(--primary-text)
 }
 
 a{

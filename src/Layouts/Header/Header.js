@@ -66,8 +66,9 @@ export default function Header({ toggle, darkTheme, toggleTheme }) {
 
       <div className={cx('user')}>
         <div className={cx('theme')}>
-          <div className={cx('thumb')} onClick={toggleTheme}>
-            <FontAwesomeIcon icon={darkTheme ? faMoon : faSun} />
+          <div className={cx('icon', { reverse: darkTheme })} onClick={toggleTheme}>
+            <FontAwesomeIcon icon={faSun} />
+            <FontAwesomeIcon icon={faMoon} />
           </div>
         </div>
         <div className={cx('item', 'login')}>

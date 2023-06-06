@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Header, Footer } from './Layouts';
-import { HomePage, Collection, Product, Account, Cart } from './pages';
+import { HomePage, Collection, Product, Account, Cart, Checkout, Page404 } from './pages';
 import { Search } from './components/Search';
 
 export default function App() {
@@ -34,6 +34,9 @@ export default function App() {
 
           <Route path="/account/:page" element={<Account />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/checkout" element={<Checkout />}></Route>
+
+          <Route path="*" element={<Page404 />}></Route>
         </Routes>
       </div>
       <Footer />

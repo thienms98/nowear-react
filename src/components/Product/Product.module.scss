@@ -91,7 +91,7 @@ $border: 1px;
       color: #fff;
       
       &.sale{
-        background-color: var(--secondary-background);
+        background-color: #e03939!important;;
       }
     }
   }
@@ -189,11 +189,11 @@ $border: 1px;
 @keyframes bouncingItem {
   50%{
     transform: translateY(-.5em) scale(1.25);
-    color: var(--secondary-background)
+    color: #e03939;
   }
   100%{
     transform: translateY(0);
-    color: var(--secondary-background)
+    color: #e03939;
   }
 }
 

@@ -5,6 +5,7 @@
 
 .cover{
   position: relative;
+  color: #333;
 
   &>*:not(.image){
     position: absolute;
@@ -56,6 +57,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  color: #333;
 
   &>.item{
     position: relative;
@@ -121,14 +123,17 @@
   .products{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0 10%;
+    box-sizing: border-box;
 
     &>.item{
       width: 25%;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 1em;
     }
   }
 }
@@ -140,5 +145,34 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+}
+
+
+
+@media (max-width: 1024px){
+  .cover{
+    .body{
+      top: 10%;
+      font-size: .75em;
+    }
+  }
+  .banners{
+    flex-direction: column;
+
+    .item .body{
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .banners:last-child .body{
+    font-size: .75em;
+  }
+
+  .bestsellers{
+    .products{
+      padding: 0 2em;
+      gap: 1em;
+    }
   }
 }

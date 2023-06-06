@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { amountById } from '../../redux/reducers/cart';
+import { amountById, remove } from '../../redux/reducers/cart';
 
 import classNames from 'classnames/bind';
 import styles from './Cart.module.scss';
@@ -19,12 +20,12 @@ export default function Cart() {
           <div className={cx('cell')}> Price</div>
           <div className={cx('cell')}> Quantity</div>
           <div className={cx('cell')}> Total</div>
-          {/* <div className={cx('cell')}> </div> */}
+          <div className={cx('cell')}> </div>
         </div>
 
         {cart.length > 0 ? (
           cart.map((product, index) => {
-            return <CartProduct product={product} />;
+            return <CartProduct product={product} key={index} index={index} />;
           })
         ) : (
           <h2>There is nothing on your cart</h2>
@@ -45,6 +46,12 @@ export default function Cart() {
         )}
       </table>
 
+      {cart.length > 0 && (
+        <div className={cx('checkout')}>
+          <Link to="/checkout">Check out</Link>
+        </div>
+      )}
+
       <div className={cx('button')}>
         <Link to="/collection">
           <h3>Continue Shopping</h3>
@@ -54,7 +61,7 @@ export default function Cart() {
   );
 }
 
-function CartProduct({ product }) {
+function CartProduct({ product, index }) {
   const { id, imageUrl, name, price, amount } = product;
   const dispatch = useDispatch();
   return (
@@ -91,6 +98,14 @@ function CartProduct({ product }) {
         </div>
       </div>
       <div className={cx('cell')}>{`$${price * amount}`}</div>
+      <div
+        className={cx('cell')}
+        onClick={() => {
+          dispatch(remove({ index }));
+        }}
+      >
+        <FontAwesomeIcon icon={faTrash} />
+      </div>
     </div>
   );
 }

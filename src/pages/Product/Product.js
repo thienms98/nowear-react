@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { add } from '../../redux/reducers/cart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faHeart, faRuler } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +12,6 @@ const cx = classNames.bind(styles);
 
 export default function Product() {
   const { productId } = useParams();
-  const cart = useSelector((state) => state.cart.list);
   const [product, setProduct] = useState(null);
   const [fav, setFav] = useState(false);
   const [amount, setAmount] = useState(1);
@@ -25,12 +24,16 @@ export default function Product() {
       .then((res) => setProduct(res[0]));
   }, [productId]);
 
+  useEffect(() => {
+    if (product) document.title = `NoWear - ${product.name}`;
+  }, [product]);
+
   return (
     <div className={cx('wrapper')}>
       {product && (
         <div className={cx('product')}>
           <div className={cx('carousel')}>
-            <Carousel list={[product.imageUrl]}></Carousel>
+            <Carousel list={new Array(14).fill(product.imageUrl)}></Carousel>
           </div>
 
           <div className={cx('detail')}>
